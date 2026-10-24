@@ -1,0 +1,226 @@
+======================================================================
+REPO: falabrasil/lapsbm
+======================================================================
+privado: False | gated: False | licença/tags: ['task_categories:automatic-speech-recognition', 'language:pt', 'license:mit']
+--- README (início) ---
+---
+license: mit
+task_categories:
+- automatic-speech-recognition
+language:
+- pt
+pretty_name: LapsBenchmark
+size_categories:
+- 1K<n<10K
+configs:
+  - config_name: default
+    data_files:
+      - split: test
+        path:
+          - data/test/LapsBM-F004/LapsBM-F004.tar.gz
+          - data/test/LapsBM-F006/LapsBM-F006.tar.gz
+          - data/test/LapsBM-F012/LapsBM-F012.tar.gz
+          - data/test/LapsBM-F013/LapsBM-F013.tar.gz
+          - data/test/LapsBM-F014/LapsBM-F014.tar.gz
+          - data/test/LapsBM-F015/LapsBM-F015.tar.gz
+          - data/test/LapsBM-F019/LapsBM-F019.tar.gz
+          - data/test/LapsBM-F025/LapsBM-F025.tar.gz
+          - data/test/LapsBM-F026/LapsBM-F026.tar.gz
+          - data/test/LapsBM-F035/LapsBM-F035.tar.gz
+          - data/test/LapsBM-M001/LapsBM-M001.tar.gz
+          - data/test/LapsBM-M002/LapsBM-M002.tar.gz
+          - data/test/LapsBM-M003/LapsBM-M003.tar.gz
+          - data/test/LapsBM-M005/LapsBM-M005.tar.gz
+          - data/test/LapsBM-M007/LapsBM-M007.tar.gz
+          - data/test/LapsBM-M008/LapsBM-M008.tar.gz
+          - data/test/LapsBM-M009/LapsBM-M009.tar.gz
+          - data/test/LapsBM-M010/LapsBM-M010.tar.gz
+          - data/test/LapsBM-M011/LapsBM-M011.tar.gz
+          - data/test/LapsBM-M016/LapsBM-M016.tar.gz
+          - data/test/LapsBM-M017/LapsBM-M017.tar.gz
+          - data/test/LapsBM-M018/LapsBM-M018.tar.gz
+          - data/test/LapsBM-M020/LapsBM-M020.tar.gz
+          - data/test/LapsBM-M021/LapsBM-M021.tar.gz
+          - data/test/LapsBM-M022/LapsBM-M022.tar.gz
+          - data/test/LapsBM-M023/LapsBM-M023.tar.gz
+          - data/test/LapsBM-M024/LapsBM-M024.tar.gz
+          - data/test/LapsBM-M027/LapsBM-M027.tar.gz
+          - data/test/LapsBM-M028/LapsBM-M028.tar.gz
+          - data/test/LapsBM-M029/LapsBM-M029.tar.gz
+          - data/test/LapsBM-M030/LapsBM-M030.tar.gz
+--- árvore (amostra) ---
+[pasta] data/
+.gitattributes  (2.4 KB)
+.gitignore  (8 B)
+README.md  (2.0 KB)
+  [pasta] test/
+    [pasta] LapsBM-F004/
+    [pasta] LapsBM-F006/
+    [pasta] LapsBM-F012/
+    [pasta] LapsBM-F013/
+    [pasta] LapsBM-F014/
+    [pasta] LapsBM-F015/
+    [pasta] LapsBM-F019/
+    [pasta] LapsBM-F025/
+    ... (há mais entradas nesta pasta)
+      LapsBM-F004.tar.gz  (2.9 MB)
+      LapsBM-F006.tar.gz  (3.0 MB)
+
+======================================================================
+REPO: falabrasil/coddef
+======================================================================
+privado: False | gated: False | licença/tags: ['task_categories:automatic-speech-recognition', 'language:pt', 'license:mit']
+--- README (início) ---
+---
+license: mit
+task_categories:
+- automatic-speech-recognition
+language:
+- pt
+pretty_name: Código de Defesa do Consumidor
+size_categories:
+- 10K<n<100K
+configs:
+  - config_name: default
+    data_files:
+      - split: dev
+        path:
+          - data/dev/locutor/locutor.tar.gz
+      - split: test
+        path:
+          - data/test/locutor/locutor.tar.gz
+      - split: train
+        path:
+          - data/train/locutor/locutor.tar.gz
+---
+--- árvore (amostra) ---
+[pasta] data/
+.gitattributes  (2.4 KB)
+.gitignore  (8 B)
+README.md  (446 B)
+  [pasta] dev/
+  [pasta] test/
+  [pasta] train/
+    [pasta] locutor/
+      locutor.tar.gz  (16.0 MB)
+    [pasta] locutor/
+      locutor.tar.gz  (14.3 MB)
+
+======================================================================
+REPO: falabrasil/constituicao
+======================================================================
+privado: False | gated: False | licença/tags: ['task_categories:automatic-speech-recognition', 'language:pt', 'license:mit']
+--- README (início) ---
+---
+license: mit
+task_categories:
+- automatic-speech-recognition
+language:
+- pt
+pretty_name: Constituição
+configs:
+  - config_name: default
+    data_files:
+      - split: dev
+        path:
+          - data/dev/locutor/locutor.tar.gz
+      - split: test
+        path:
+          - data/test/locutor/locutor.tar.gz
+      - split: train
+        path:
+          - data/train/locutor/locutor.tar.gz
+---
+--- árvore (amostra) ---
+[pasta] data/
+.gitattributes  (2.4 KB)
+.gitignore  (8 B)
+README.md  (399 B)
+  [pasta] dev/
+  [pasta] test/
+  [pasta] train/
+    [pasta] locutor/
+      locutor.tar.gz  (119.1 MB)
+    [pasta] locutor/
+      locutor.tar.gz  (119.6 MB)
+
+======================================================================
+REPO: falabrasil/cetuc
+======================================================================
+privado: False | gated: False | licença/tags: ['task_categories:automatic-speech-recognition', 'language:pt', 'license:mit']
+--- README (início) ---
+---
+license: mit
+task_categories:
+- automatic-speech-recognition
+language:
+- pt
+pretty_name: CETUC
+size_categories:
+- 100K<n<1M
+configs:
+  - config_name: default
+    data_files:
+      - split: dev
+        path:
+          - data/dev/CarolinaMagalhaes_F050/CarolinaMagalhaes_F050.tar.gz
+          - data/dev/CeCiliaBulcao_F021/CeCiliaBulcao_F021.tar.gz
+          - data/dev/Gabriela_F034/Gabriela_F034.tar.gz
+          - data/dev/HenriqueMafra_M046/HenriqueMafra_M046.tar.gz
+          - data/dev/IvoneAmitrano_F000/IvoneAmitrano_F000.tar.gz
+          - data/dev/JeanCarlos_M019/JeanCarlos_M019.tar.gz
+          - data/dev/LuizCarlos_M029/LuizCarlos_M029.tar.gz
+          - data/dev/Patricia_F001/Patricia_F001.tar.gz
+          - data/dev/Rodrigo_M043/Rodrigo_M043.tar.gz
+          - data/dev/SallesAbi-Abib_M047/SallesAbi-Abib_M047.tar.gz
+      - split: test
+        path:
+          - data/test/Anesia_F040/Anesia_F040.tar.gz
+          - data/test/AnnaPerez_F046/AnnaPerez_F046.tar.gz
+          - data/test/ConceicaoAbdulatif_F016/ConceicaoAbdulatif_F016.tar.gz
+          - data/test/DanielRibeiro_M002/DanielRibeiro_M002.tar.gz
+          - data/test/jorge_M025/jorge_M025.tar.gz
+          - data/test/LuanaEsterLuna_F019/LuanaEsterLuna_F019.tar.gz
+          - data/test/Marcosvictor_M037/Marcosvictor_M037.tar.gz
+          - data/test/Narhua_F029/Narhua_F029.tar.gz
+          - data/test/PauloSiqueira_Papus_M015/PauloSiqueira_Papus_M015.tar.gz
+          - data/test/Rafael_M013/Rafael_M013.tar.gz
+      - split: train
+        path:
+          - data/train/AdrianaMalta_F049/AdrianaMalta_F049.tar.gz
+          - data/train/Aislam_M001/Aislam_M001.tar.gz
+          - data/train/Alcione_F018/Alcione_F018.tar.gz
+          - data/train/Alessandra_F045/Alessandra_F045.tar.gz
+          - data/train/Alexandra_F010/Alexandra_F010.tar.gz
+          - data/train/AnaVarela_F042/AnaVarela_F042.tar.gz
+          - data/train/Andrea_F003/Andrea_F003.tar.gz
+--- árvore (amostra) ---
+[pasta] data/
+.gitattributes  (2.4 KB)
+.gitignore  (8 B)
+README.md  (6.3 KB)
+  [pasta] dev/
+  [pasta] test/
+  [pasta] train/
+    [pasta] CarolinaMagalhaes_F050/
+    [pasta] CeCiliaBulcao_F021/
+    [pasta] Gabriela_F034/
+    [pasta] HenriqueMafra_M046/
+    [pasta] IvoneAmitrano_F000/
+    [pasta] JeanCarlos_M019/
+    [pasta] LuizCarlos_M029/
+    [pasta] Patricia_F001/
+    ... (há mais entradas nesta pasta)
+      CarolinaMagalhaes_F050.tar.gz  (111.6 MB)
+      CeCiliaBulcao_F021.tar.gz  (91.0 MB)
+    [pasta] Anesia_F040/
+    [pasta] AnnaPerez_F046/
+    [pasta] ConceicaoAbdulatif_F016/
+    [pasta] DanielRibeiro_M002/
+    [pasta] LuanaEsterLuna_F019/
+    [pasta] Marcosvictor_M037/
+    [pasta] Narhua_F029/
+    [pasta] PauloSiqueira_Papus_M015/
+    ... (há mais entradas nesta pasta)
+      Anesia_F040.tar.gz  (110.2 MB)
+      AnnaPerez_F046.tar.gz  (116.7 MB)

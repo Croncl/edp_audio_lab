@@ -1,0 +1,27 @@
+======================================================================
+falabrasil/lapsbm :: data/test/LapsBM-F004/LapsBM-F004.tar.gz
+======================================================================
+membros úteis no tar: 40 (ignorados 40 arquivos '._' do macOS) | por extensão: {'.txt': 20, '.wav': 20}
+primeiros nomes: LapsBM_0061.txt | LapsBM_0061.wav | LapsBM_0062.txt | LapsBM_0062.wav | LapsBM_0063.txt | LapsBM_0063.wav | LapsBM_0064.txt | LapsBM_0064.wav
+áudios: 20 | arquivos de texto/metadados: 20
+formato do 1º áudio (LapsBM_0061.wav): 22050 Hz, 1 canal(is), 4.3 s, WAV/PCM_16
+duração (20 áudios): mín 2.7 s | média 4.1 s | máx 4.9 s | total 1.4 min
+áudios com .txt de mesmo nome: 20 de 20
+textos que NÃO são UTF-8 válido: 0 de 20
+  exemplo LapsBM_0061.txt: há algumas coisas que não podem deixar de serem vistas em paris
+  exemplo LapsBM_0062.txt: há demanda por real  não por dólar  cuja cotação cai
+  exemplo LapsBM_0063.txt: há cento e setenta bilhões de moedas de um centavo em circulação
+
+======================================================================
+falabrasil/coddef :: data/dev/locutor/locutor.tar.gz
+======================================================================
+membros úteis no tar: 50 (ignorados 50 arquivos '._' do macOS) | por extensão: {'.txt': 25, '.wav': 25}
+primeiros nomes: codDef-art006a.txt | codDef-art006a.wav | codDef-art012b.txt | codDef-art012b.wav | codDef-art014a.txt | codDef-art014a.wav | codDef-art021a.txt | codDef-art021a.wav
+áudios: 25 | arquivos de texto/metadados: 25
+formato do 1º áudio (codDef-art006a.wav): 16000 Hz, 1 canal(is), 22.3 s, WAV/PCM_16
+duração (25 áudios): mín 7.7 s | média 23.4 s | máx 77.1 s | total 9.7 min
+áudios com .txt de mesmo nome: 25 de 25
+textos que NÃO são UTF-8 válido: 0 de 25
+  exemplo codDef-art006a.txt: capítulo três dos direitos básicos do consumidor artigo sexto são direitos básicos do consumidor dois pontos inciso um a proteção da vida saúde e segurança contra os riscos provocados por práticas no 
+  exemplo codDef-art012b.txt: fabricação construção montagem fórmulas manipulação apresentação ou acondicionamento de seus produtos bem como por informações insuficientes ou inadequadas sobre sua utilização e riscos parágrafo prim
+  exemplo codDef-art014a.txt: artigo quatoze o fornecedor de serviços responde independentemente da existência de culpa pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços bem como po

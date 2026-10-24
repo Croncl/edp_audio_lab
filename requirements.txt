@@ -1,0 +1,10 @@
+numpy>=1.26
+scipy>=1.11
+librosa>=0.10
+soundfile>=0.12
+matplotlib>=3.8
+pandas>=2.0
+pystoi>=0.4
+pyarrow>=15
+huggingface_hub>=0.24
+jupyter>=1.0
