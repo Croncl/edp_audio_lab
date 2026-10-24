@@ -15,12 +15,31 @@ import time
 import librosa
 
 
+def carregar_modelo(nome, device, threads):
+    """auto: usa CUDA se existir e funcionar, senao CPU. Retorna (modelo, dispositivo_usado)."""
+    import numpy as np
+    from faster_whisper import WhisperModel
+    if device in ("auto", "cuda"):
+        try:
+            import ctranslate2
+            if ctranslate2.get_cuda_device_count() > 0:
+                m = WhisperModel(nome, device="cuda", compute_type="float16")
+                list(m.transcribe(np.zeros(16000, dtype="float32"), language="pt")[0])  # teste real
+                return m, "cuda"
+            motivo = "nenhuma GPU CUDA encontrada"
+        except Exception as e:
+            motivo = f"{type(e).__name__}: {e}"
+        print(f"CUDA indisponivel ({motivo}); usando CPU.")
+    return WhisperModel(nome, device="cpu", compute_type="int8", cpu_threads=threads), "cpu"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("audio")
     ap.add_argument("--modelo", default="tiny", help="tiny | base | small | medium")
     ap.add_argument("--threads", type=int, default=max(4, (os.cpu_count() or 8) // 2),
                     help="threads de CPU (padrão: metade dos núcleos lógicos)")
+    ap.add_argument("--device", default="auto", choices=["auto", "cuda", "cpu"])
     a = ap.parse_args()
 
     from faster_whisper import WhisperModel
@@ -32,7 +51,8 @@ def main():
     print(f"Áudio: {a.audio}  ({dur:.1f} s)   modelo: {a.modelo}   threads: {a.threads}")
 
     t0 = time.perf_counter()
-    modelo = WhisperModel(a.modelo, device="cpu", compute_type="int8", cpu_threads=a.threads)
+    modelo, disp = carregar_modelo(a.modelo, a.device, a.threads)
+    print(f"Dispositivo: {disp}")
     t_carga = time.perf_counter() - t0
 
     t0 = time.perf_counter()
