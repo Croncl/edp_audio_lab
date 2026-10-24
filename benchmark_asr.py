@@ -150,6 +150,24 @@ def grafico(resumo, saida, modelo):
 
 
 # ----------------------------------------------------------------------
+def carregar_modelo(nome, device, threads):
+    """auto: usa CUDA se existir e funcionar, sen?o CPU. Retorna (modelo, dispositivo_usado)."""
+    import numpy as np
+    from faster_whisper import WhisperModel
+    if device in ("auto", "cuda"):
+        try:
+            import ctranslate2
+            if ctranslate2.get_cuda_device_count() > 0:
+                m = WhisperModel(nome, device="cuda", compute_type="float16")
+                list(m.transcribe(np.zeros(16000, dtype="float32"), language="pt")[0])  # teste real
+                return m, "cuda"
+            motivo = "nenhuma GPU CUDA encontrada"
+        except Exception as e:
+            motivo = f"{type(e).__name__}: {e}"
+        print(f"CUDA indispon?vel ({motivo}); usando CPU.")
+    return WhisperModel(nome, device="cpu", compute_type="int8", cpu_threads=threads), "cpu"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--manifesto", default="data/manifests/lapsbm.csv")
@@ -160,13 +178,14 @@ def main():
     ap.add_argument("--frentes", nargs="+", default=FRENTES, choices=FRENTES)
     ap.add_argument("--beam", type=int, default=5)
     ap.add_argument("--threads", type=int, default=max(4, (os.cpu_count() or 8) // 2))
+    ap.add_argument("--device", default="auto", choices=["auto", "cuda", "cpu"])
     ap.add_argument("--saida", default="resultados_asr")
     a = ap.parse_args()
     if "nenhum" not in a.frentes:
         a.frentes = ["nenhum"] + a.frentes
 
-    from faster_whisper import WhisperModel
-    modelo = WhisperModel(a.modelo, device="cpu", compute_type="int8", cpu_threads=a.threads)
+    modelo, disp = carregar_modelo(a.modelo, a.device, a.threads)
+    print(f"Dispositivo: {disp}")
 
     def asr(audio):
         segs, _ = modelo.transcribe(audio, language="pt", beam_size=a.beam, condition_on_previous_text=False,
