@@ -1,0 +1,24 @@
+# ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# dados e resultados gerados (grandes, reprodutíveis)
+data/
+outputs/
+resultados_asr/
+meus_audios/
+
+# áudios soltos
+*.wav
+*.flac
+*.mp3
+*.ogg
+
+# sistema
+.DS_Store
+Thumbs.db
