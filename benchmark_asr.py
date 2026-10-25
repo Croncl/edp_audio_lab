@@ -26,8 +26,9 @@ import soundfile as sf
 import edp_lab as L
 from textutil import normalizar_texto
 
-FRENTES = ["nenhum", "perona_malik", "wiener", "wiener+pm", "pm_seletivo"]
+FRENTES = ["nenhum", "perona_malik", "wiener", "wiener+pm", "pm_seletivo", "wiener+pm_sel"]
 KAPPA, DT, N_ITER, N_ITER_SEL = 10.0, 0.2, 3, 10
+CFG = {"tipo": "branco", "pool": []}   # pool: (locutor, audio) p/ babble
 
 
 # ----------------------------------------------------------------------
@@ -43,6 +44,8 @@ def aplicar_frente(y, frente):
         r = L.aplicar_edp(y, "perona_malik", pre="wiener", kappa=KAPPA, dt=DT, n_iter=N_ITER)
     elif frente == "pm_seletivo":
         r = L.aplicar_edp(y, "perona_malik", seletivo=True, kappa=KAPPA, dt=DT, n_iter=N_ITER_SEL)
+    elif frente == "wiener+pm_sel":
+        r = L.aplicar_edp(y, "perona_malik", pre="wiener", seletivo=True, kappa=KAPPA, dt=DT, n_iter=N_ITER_SEL)
     else:
         raise ValueError(f"frente desconhecida: {frente}")
     return L.igualar_nivel(y, r["y_out"])
@@ -85,7 +88,7 @@ def rodar(asr, falas, frentes, snrs, log=print):
             y, sr = sf.read(f.wav, dtype="float32")
             assert sr == L.SR, f"{f.wav}: esperado {L.SR} Hz, veio {sr}"
             if cond != "limpo":
-                y = L.adicionar_ruido(y, float(cond[3:]), seed=1000 + i)   # mesmo ruído p/ todas as frentes
+                y = L.adicionar_ruido_tipo(y, float(cond[3:]), CFG["tipo"], seed=1000 + i, pool=[p for sp, p in CFG["pool"] if sp != f.speaker])   # mesmo ruído p/ todas as frentes
             for fr in frentes:
                 ye = aplicar_frente(y, fr)
                 t1 = time.perf_counter()
@@ -179,6 +182,7 @@ def main():
     ap.add_argument("--beam", type=int, default=5)
     ap.add_argument("--threads", type=int, default=max(4, (os.cpu_count() or 8) // 2))
     ap.add_argument("--device", default="auto", choices=["auto", "cuda", "cpu"])
+    ap.add_argument("--ruido", default="branco", choices=["branco", "rosa", "marrom", "babble"])
     ap.add_argument("--saida", default="resultados_asr")
     a = ap.parse_args()
     if "nenhum" not in a.frentes:
@@ -193,6 +197,9 @@ def main():
         return " ".join(s.text.strip() for s in segs)
 
     falas = escolher_falas(a.manifesto, a.split, a.por_locutor)
+    CFG["tipo"] = a.ruido
+    if a.ruido == "babble":
+        CFG["pool"] = [(r.speaker, sf.read(r.wav, dtype="float32")[0]) for r in falas.itertuples()]
     print(f"{len(falas)} falas ({falas.speaker.nunique()} locutores) | modelo {a.modelo} | frentes {a.frentes} | SNRs {a.snrs}")
     df = rodar(asr, falas, a.frentes, [int(s) if float(s).is_integer() else s for s in a.snrs])
 

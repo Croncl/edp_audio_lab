@@ -12,7 +12,7 @@ Tratar o espectrograma de um áudio como uma **imagem** e aplicar **equações d
 2. Se o realce melhora o **reconhecimento automático de fala** (WER do Whisper).
 3. Como se comparam com um baseline clássico (Wiener) e com combinações.
 
-**Resposta curta:** as EDPs puras não melhoram o som de forma útil. A melhor EDP é o Perona-Melik seletivo (age só onde há ruído). O Wiener é muito melhor que qualquer EDP sozinha. A melhor combinação foi **Wiener + PM seletivo**. Nenhuma técnica melhorou o WER do Whisper.
+**Resposta curta:** as EDPs puras não melhoram o som de forma útil. A melhor EDP é o Perona-Malik seletivo (age só onde há ruído). O Wiener é muito melhor que qualquer EDP sozinha. A melhor combinação foi **Wiener + PM seletivo**. Nenhuma técnica melhorou o WER do Whisper.
 
 ---
 
@@ -130,7 +130,7 @@ Os desvios entre locutores são grandes (STOI ≈ 0,065), maiores que as diferen
 
 70 falas do LapsBM (2 por locutor, 35 locutores), áudio **sem** normalização de pico, mesmo ruído para todas as frentes, IC 95% por bootstrap pareado. Realce igualado em RMS antes de transcrever. CPU, int8.
 
-### 5.1 Primeira tentativa: modelo `tiny` (resultado descartado)
+### 6.1 Primeira tentativa: modelo `tiny` (resultado descartado)
 
 Com ruído branco, WER sem realce de 22,4% (limpo), **99,5% (10 dB)** e **118,9% (0 dB)**. Ao inspecionar as transcrições, o modelo **alucinava**: texto fluente sem relação com a referência, com repetições ("e a sua e a sua e a sua"). O "efeito" do Wiener a 10 dB (−15,8 pontos) era artefato dessa alucinação. **Lição:** com um modelo fraco demais, o experimento mede o modelo, não o realce.
 
@@ -163,8 +163,23 @@ Com ruído branco, WER sem realce de 22,4% (limpo), **99,5% (10 dB)** e **118,9%
 4. **Wiener piora com babble** porque o ruído não é estacionário: o ruído estimado nas pausas não representa o ruído durante a fala, e o filtro corta fala junto.
 5. **Contradição aparente com o Experimento A:** o realce melhora SNR e STOI, mas não o WER. Não é contradição: SNR e STOI medem a proximidade com o limpo para humanos e para a forma de onda; o Whisper tem outro "ouvido".
 
-### 6.5 Limitações do Experimento B
-Só 70 falas (intervalos largos, ex.: −0,7 a +12,2 a 10 dB), um único modelo robusto (`small`), ruídos sintéticos, e `wiener+pm_sel`, `pm_vales` e `calor` **não foram testados em ASR**. A conclusão correta é "não há evidência de benefício nessas condições", e não "nunca ajuda".
+### 6.5 `wiener+pm_sel` em ASR (a melhor combinação do Experimento A)
+
+| Ruído | Frente | limpo | 20 dB | 15 dB | 10 dB | 5 dB |
+|---|---|---|---|---|---|---|
+| branco | nenhum | 8,9 | 12,5 | 21,7 | 39,9 | n/d |
+| branco | wiener+pm_sel | 8,2 | 13,3 | 25,8 (PIORA, +4,1) | 41,0 | n/d |
+| babble | nenhum | 8,9 | n/d | 8,9 | 9,3 | 14,8 |
+| babble | wiener+pm_sel | 8,2 | n/d | 9,3 | 10,3 | 20,4 (PIORA, +5,6) |
+
+**Resultado:** mesmo a melhor combinação em qualidade do sinal **não ajuda o Whisper**. Piora de forma significativa em 15 dB (branco) e 5 dB (babble); nas demais condições a diferença é inconclusiva, com sinal positivo (pior) em quase todas. No limpo a diferença (−0,7) também é inconclusiva.
+
+Isso reforça o ponto da seção 6.4: ganhar em SNR/LSD/STOI (que o `wiener+pm_sel` ganha) não se traduz em menor WER, porque as distorções do realce pesam mais para o reconhecedor do que o ruído removido.
+
+**Nota de reprodutibilidade:** a linha `nenhum` do ruído branco saiu um pouco diferente da rodada anterior (12,5 e 39,9 contra 12,1 e 39,1). Causa provável: o ruído passou a ser gerado por `adicionar_ruido_tipo`, que escala o ruído para a potência exata pedida, enquanto a função antiga usava o desvio-padrão teórico. É uma variação de sorteio, não de método. A comparação entre frentes dentro de uma mesma rodada continua válida (mesmo ruído, pareada). Os números do branco das seções 6.2 e 6.5 não devem ser misturados numa mesma tabela de diferenças.
+
+### 6.6 Limitações do Experimento B
+Só 70 falas (intervalos largos, ex.: −0,7 a +12,2 a 10 dB), um único modelo robusto (`small`), ruídos sintéticos, e `calor` e `pm_vales` **não foram testados em ASR** (já eram piores em qualidade do sinal). A conclusão correta é "não há evidência de benefício nessas condições", e não "nunca ajuda".
 
 ---
 
@@ -221,7 +236,7 @@ Não foi testado. Difusão reversa é mal posta (amplifica ruído de alta frequ�
 
 ## 10. Próximos passos sugeridos
 
-1. Testar `wiener+pm_sel` em **ASR** (modelo `small`), com ruído branco e babble.
+1. (feito: `wiener+pm_sel` em ASR não ajudou, seção 6.5.)
 2. Calcular **IC pareado** para as métricas de qualidade.
 3. Rodar com ruído **marrom/rosa** e, principalmente, com **gravações reais ruidosas** (sua voz em ambiente ruim, via `gravar.py`).
 4. Estimador de ruído adaptativo (não estacionário), que deve ajudar o Wiener com babble.
