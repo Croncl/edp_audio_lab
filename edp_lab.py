@@ -319,6 +319,14 @@ def mascara_ruido(u_db, Pn, ref, margem=8.0, largura=2.0):
     return 1.0 / (1.0 + np.exp(-(piso_db + margem - u_db) / largura))
 
 
+def mascara_vales(u_db, largura=8, queda=10.0, suave=2.0):
+    """Mascara suave (0..1): ~1 nos vales (>= `queda` dB abaixo do maximo local em frequencia, +-`largura` bins),
+    ~0 nos picos (harmonicos). A EDP so age onde vale 1."""
+    from scipy.ndimage import maximum_filter1d
+    env = maximum_filter1d(u_db, size=2 * largura + 1, axis=0, mode="nearest")
+    return 1.0 / (1.0 + np.exp(-((env - u_db) - queda) / suave))
+
+
 def igualar_nivel(y_ref, y, teto=0.99):
     """Escala `y` para ter a mesma energia (RMS) de `y_ref` (comparação de escuta justa). Evita clipping."""
     g = np.sqrt(np.mean(y_ref.astype(np.float64) ** 2) / (np.mean(y.astype(np.float64) ** 2) + 1e-20))
@@ -329,7 +337,7 @@ def igualar_nivel(y_ref, y, teto=0.99):
     return out.astype(np.float32)
 
 
-def aplicar_edp(y, metodo="calor", n_fft=N_FFT, hop=HOP, pre=None, seletivo=False, margem=8.0, **kw):
+def aplicar_edp(y, metodo="calor", n_fft=N_FFT, hop=HOP, pre=None, seletivo=False, margem=8.0, vales=False, queda=10.0, **kw):
     """
     Pipeline STFT -> [pre: redução de ruído] -> [EDP, opcionalmente só onde há ruído] -> ISTFT.
 
@@ -354,6 +362,8 @@ def aplicar_edp(y, metodo="calor", n_fft=N_FFT, hop=HOP, pre=None, seletivo=Fals
     else:
         if seletivo:
             kw = dict(kw, mascara=mascara_ruido(u0, estimar_ruido(E.mag), E.ref, margem))
+        elif vales:
+            kw = dict(kw, mascara=mascara_vales(u0, queda=queda))
         u_edp = METODOS[metodo](u0, **kw)
     y_out = istft(de_db(u_edp, E.ref), E.fase, len(y), hop, n_fft)
     u_re = espec_db_de_sinal(y_out, E.ref, n_fft, hop)
@@ -368,6 +378,8 @@ def variantes(y_ruid, D=0.2, kappa=10.0, dt=0.2, n_iter=3, n_iter_sel=10):
         "wiener": aplicar_edp(y_ruid, None, pre="wiener"),
         "wiener+pm": aplicar_edp(y_ruid, "perona_malik", pre="wiener", kappa=kappa, dt=dt, n_iter=n_iter),
         "pm_seletivo": aplicar_edp(y_ruid, "perona_malik", seletivo=True, kappa=kappa, dt=dt, n_iter=n_iter_sel),
+        "wiener+pm_sel": aplicar_edp(y_ruid, "perona_malik", pre="wiener", seletivo=True, kappa=kappa, dt=dt, n_iter=n_iter_sel),
+        "pm_vales": aplicar_edp(y_ruid, "perona_malik", vales=True, kappa=kappa, dt=dt, n_iter=n_iter_sel),
     }
 
 
@@ -586,9 +598,9 @@ def salvar_wav(y, caminho, sr=SR):
 
 # cores das variantes (paleta categórica; azul = ruidoso, laranja/verde = EDPs puras)
 CORES_VAR = {"ruidoso": COR_ORIG, "calor": COR_CALOR, "perona_malik": COR_PM, "wiener": "#6250d6",
-             "wiener+pm": "#e87ba4", "pm_seletivo": "#eda100"}
+             "wiener+pm": "#e87ba4", "pm_seletivo": "#eda100", "pm_vales": "#0f9d9a", "wiener+pm_sel": "#8a4fd6"}
 ROTULOS_VAR = {"ruidoso": "Ruidoso", "calor": "Calor", "perona_malik": "Perona-Malik", "wiener": "Wiener",
-               "wiener+pm": "Wiener + PM", "pm_seletivo": "PM seletivo"}
+               "wiener+pm": "Wiener + PM", "pm_seletivo": "PM seletivo", "pm_vales": "PM vales", "wiener+pm_sel": "Wiener + PM seletivo"}
 
 
 def fig_variantes(y_limpo, y_ruid, res, sr=SR, saida=None, rotulo="Ruidoso"):
@@ -621,3 +633,96 @@ def fig_mascara(y, y_ruid, sr=SR, saida=None, margem=8.0):
     fig.colorbar(im, ax=axs[1], pad=0.01)
     _spec(axs[2], u * (1 - M) + (-80) * M, sr, titulo="O que fica PROTEGIDO (regiões de fala)")
     return _salvar(fig, saida)
+
+
+def gerar_ruido(n, tipo, rng, pool=None, k=6):
+    """branco | rosa (1/f) | marrom (1/f^2) | babble (soma de k falas de `pool`, lista de arrays)."""
+    if tipo == "branco":
+        return rng.standard_normal(n)
+    if tipo in ("rosa", "marrom"):
+        X = np.fft.rfft(rng.standard_normal(n))
+        f = np.arange(len(X), dtype=np.float64)
+        f[0] = 1.0
+        return np.fft.irfft(X / f ** (0.5 if tipo == "rosa" else 1.0), n)
+    if tipo == "babble":
+        if not pool:
+            raise ValueError("babble precisa de `pool` com audios de outros locutores")
+        r = np.zeros(n)
+        for j in rng.choice(len(pool), size=min(k, len(pool)), replace=False):
+            a = np.asarray(pool[j], dtype=np.float64)
+            a = np.tile(a, int(np.ceil(n / len(a)) + 1))
+            ini = int(rng.integers(0, len(a) - n))
+            r += a[ini:ini + n]
+        return r
+    raise ValueError(f"tipo de ruido desconhecido: {tipo}")
+
+
+def adicionar_ruido_tipo(y, snr_alvo_db, tipo="branco", seed=0, pool=None):
+    """Soma ruido do `tipo` com SNR = snr_alvo_db (potencia media)."""
+    rng = np.random.default_rng(seed)
+    r = gerar_ruido(len(y), tipo, rng, pool)
+    p_alvo = np.mean(y.astype(np.float64) ** 2) / (10 ** (snr_alvo_db / 10))
+    r = r * np.sqrt(p_alvo / (np.mean(r ** 2) + 1e-20))
+    return (y + r).astype(np.float32)
+
+
+def gerar_ruido(n, tipo, rng, pool=None, k=6):
+    """branco | rosa (1/f) | marrom (1/f^2) | babble (soma de k falas de `pool`, lista de arrays)."""
+    if tipo == "branco":
+        return rng.standard_normal(n)
+    if tipo in ("rosa", "marrom"):
+        X = np.fft.rfft(rng.standard_normal(n))
+        f = np.arange(len(X), dtype=np.float64)
+        f[0] = 1.0
+        return np.fft.irfft(X / f ** (0.5 if tipo == "rosa" else 1.0), n)
+    if tipo == "babble":
+        if not pool:
+            raise ValueError("babble precisa de `pool` com audios de outros locutores")
+        r = np.zeros(n)
+        for j in rng.choice(len(pool), size=min(k, len(pool)), replace=False):
+            a = np.asarray(pool[j], dtype=np.float64)
+            a = np.tile(a, int(np.ceil(n / len(a)) + 1))
+            ini = int(rng.integers(0, len(a) - n))
+            r += a[ini:ini + n]
+        return r
+    raise ValueError(f"tipo de ruido desconhecido: {tipo}")
+
+
+def adicionar_ruido_tipo(y, snr_alvo_db, tipo="branco", seed=0, pool=None):
+    """Soma ruido do `tipo` com SNR = snr_alvo_db (potencia media)."""
+    rng = np.random.default_rng(seed)
+    r = gerar_ruido(len(y), tipo, rng, pool)
+    p_alvo = np.mean(y.astype(np.float64) ** 2) / (10 ** (snr_alvo_db / 10))
+    r = r * np.sqrt(p_alvo / (np.mean(r ** 2) + 1e-20))
+    return (y + r).astype(np.float32)
+
+
+def gerar_ruido(n, tipo, rng, pool=None, k=6):
+    """branco | rosa (1/f) | marrom (1/f^2) | babble (soma de k falas de `pool`, lista de arrays)."""
+    if tipo == "branco":
+        return rng.standard_normal(n)
+    if tipo in ("rosa", "marrom"):
+        X = np.fft.rfft(rng.standard_normal(n))
+        f = np.arange(len(X), dtype=np.float64)
+        f[0] = 1.0
+        return np.fft.irfft(X / f ** (0.5 if tipo == "rosa" else 1.0), n)
+    if tipo == "babble":
+        if not pool:
+            raise ValueError("babble precisa de `pool` com audios de outros locutores")
+        r = np.zeros(n)
+        for j in rng.choice(len(pool), size=min(k, len(pool)), replace=False):
+            a = np.asarray(pool[j], dtype=np.float64)
+            a = np.tile(a, int(np.ceil(n / len(a)) + 1))
+            ini = int(rng.integers(0, len(a) - n))
+            r += a[ini:ini + n]
+        return r
+    raise ValueError(f"tipo de ruido desconhecido: {tipo}")
+
+
+def adicionar_ruido_tipo(y, snr_alvo_db, tipo="branco", seed=0, pool=None):
+    """Soma ruido do `tipo` com SNR = snr_alvo_db (potencia media)."""
+    rng = np.random.default_rng(seed)
+    r = gerar_ruido(len(y), tipo, rng, pool)
+    p_alvo = np.mean(y.astype(np.float64) ** 2) / (10 ** (snr_alvo_db / 10))
+    r = r * np.sqrt(p_alvo / (np.mean(r ** 2) + 1e-20))
+    return (y + r).astype(np.float32)
