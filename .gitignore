@@ -22,3 +22,14 @@ meus_audios/
 # sistema
 .DS_Store
 Thumbs.db
+
+
+mlflow.db
+mlruns/
+mlartifacts/
+modelos/
+mlflow.db
+mlruns/
+mlartifacts/
+modelos/*/last.pt
+resultados_unet/por_fala.csv
