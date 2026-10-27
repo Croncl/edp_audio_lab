@@ -1,0 +1,7 @@
+,SNR_dB,LSD_dB,STOI
+ruidoso,10.002,15.153,0.85
+calor,5.178,13.768,0.821
+perona_malik,9.559,14.07,0.848
+wiener,14.208,10.685,0.87
+wiener+pm,11.198,10.406,0.87
+pm_seletivo,11.459,13.9,0.86

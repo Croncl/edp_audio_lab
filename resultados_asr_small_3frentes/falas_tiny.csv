@@ -1,0 +1,631 @@
+id,speaker,condicao,frente,ref,hip,erros,palavras,dur_s
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,limpo,nenhum,o mercado fica de alto risco a curto prazo,o mercado fica de alto risco a curto prazo,0,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,limpo,wiener,o mercado fica de alto risco a curto prazo,mertado fica de alto risco a curto prazo,2,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,limpo,perona_malik,o mercado fica de alto risco a curto prazo,o mercado fica de alto risco a curto prazo,0,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,limpo,nenhum,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,a infraera ainda não sabe em qual dos dois aeroportos alexandre embarcou,1,12,4.607
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,limpo,wiener,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,a infraeram ainda não sabem qual dos dois aeroportos alexandre em barco,5,12,4.607
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,limpo,perona_malik,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,a infraera ainda não sabe em qual dos dois aeroportos alexandre embarcou,1,12,4.607
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,limpo,nenhum,juro para capital de giro chega a cento e quarenta por cento ao ano,juro para capital de jiro chega a cento e quarenta por cento ao ano,1,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,limpo,wiener,juro para capital de giro chega a cento e quarenta por cento ao ano,juro para capital de jiro chega a séntico quarenta por cento ao ano,3,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,limpo,perona_malik,juro para capital de giro chega a cento e quarenta por cento ao ano,juro para capital de jiro chega a cento e quarenta por cento ao ano,1,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,limpo,nenhum,chega a secretário da cultura com amplo apoio de intelectuais e artistas,chega a secretária da cultura com um plapoio de intelectuais e artistas,3,12,4.948
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,limpo,wiener,chega a secretário da cultura com amplo apoio de intelectuais e artistas,chega a secretária da cultura com a ampla apoio de intelectuais e artistas,3,12,4.948
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,limpo,perona_malik,chega a secretário da cultura com amplo apoio de intelectuais e artistas,chega a secretária da cultura com um plapoio de intelectuais e artistas,3,12,4.948
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,limpo,nenhum,o carro rodopiou na pista molhada e bateu no caminhão,o carro rodopeou na pista molhada e bateou no caminho,3,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,limpo,wiener,o carro rodopiou na pista molhada e bateu no caminhão,o carro rodopeou na pista moalhada e batirou no caminho,4,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,limpo,perona_malik,o carro rodopiou na pista molhada e bateu no caminhão,o carro rodopeou na pista molhada e bateou no caminho,3,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,limpo,nenhum,dois o piloto teve morte cerebral instantânea no momento do acidente,pois o piloto teve uma acerebrava instantânea no momento do acidente,3,11,4.436
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,limpo,wiener,dois o piloto teve morte cerebral instantânea no momento do acidente,pois o piloto teve uma acerebrau instantânea no momento do acidente,3,11,4.436
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,limpo,perona_malik,dois o piloto teve morte cerebral instantânea no momento do acidente,pois o piloto teve uma acerebrava instantânea no momento do acidente,3,11,4.436
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,limpo,nenhum,esta espécie de ruído desaparece após uma noite de sono,esta espécie de ruído desaparece após uma noite de sono,0,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,limpo,wiener,esta espécie de ruído desaparece após uma noite de sono,esta espécie de ruído desaparece após uma noite de sono,0,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,limpo,perona_malik,esta espécie de ruído desaparece após uma noite de sono,esta espécie de ruído desaparece após uma noite de sono,0,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,limpo,nenhum,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,dos vinte e um prêmios catorze foram para trabalhos jornalísticos,1,10,5.46
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,limpo,wiener,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,dos vídeos em um prêmio catorze foram para trabalhos de jornalísticos,5,10,5.46
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,limpo,perona_malik,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,dos vinte e prime catorze foram para trabalhos jornalísticos,3,10,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,limpo,nenhum,análise de viés psicológico da obra de guimarães rosa,a análise de viagem psicológica da obra de humana e raza,6,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,limpo,wiener,análise de viés psicológico da obra de guimarães rosa,a análise de viagem psicológico da obra de humana e soza,5,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,limpo,perona_malik,análise de viés psicológico da obra de guimarães rosa,a análise de viagem psicológica da obra de humana e raza,6,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,limpo,nenhum,hoje o índio só responde à constituição se solicitar sua emancipação,hoje o vídeo só responde a constituição ou se solicitar a sua emancipação,4,11,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,limpo,wiener,hoje o índio só responde à constituição se solicitar sua emancipação,hoje vindo só a responder a constituição socialista a sua emancipação,7,11,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,limpo,perona_malik,hoje o índio só responde à constituição se solicitar sua emancipação,hoje o vídeo só responde a constituição ou se solicitar sua emancipação,3,11,5.46
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,limpo,nenhum,o sequestro de bens serviria para garantir o pagamento,você gosta de bem serviria para garantir o pagamento,3,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,limpo,wiener,o sequestro de bens serviria para garantir o pagamento,você gosta de bem serviria para garantir o pagamento,3,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,limpo,perona_malik,o sequestro de bens serviria para garantir o pagamento,você gosta de bem serviria para garantir o pagamento,3,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,limpo,nenhum,xavier descarta a hipótese de o caixão ter sido violado,já havia descarta aí potas e dia o caixão ter sido violado,6,10,4.777
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,limpo,wiener,xavier descarta a hipótese de o caixão ter sido violado,já vieres cartas e potas e dia o caixão ter sido violado,7,10,4.777
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,limpo,perona_malik,xavier descarta a hipótese de o caixão ter sido violado,já vi a descarta e potas e dia o caixão ter sido violado,7,10,4.777
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,limpo,nenhum,eu sou fiel aos meus amigos e eles são fiéis a mim,eu sou fiel aos meus amigos e eles são fieles aminos,3,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,limpo,wiener,eu sou fiel aos meus amigos e eles são fiéis a mim,eu sou fiel as meus amigos e eles são fiasas a mim,2,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,limpo,perona_malik,eu sou fiel aos meus amigos e eles são fiéis a mim,eu sou fiel aos meus amigos e eles são fieles aminos,3,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,limpo,nenhum,o jogo foi marcado pela disputa no meio campo,o jogo foi marcado pela disputa no meio campo,0,9,4.436
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,limpo,wiener,o jogo foi marcado pela disputa no meio campo,o jogo foi marcado pela descaputa no meio capo,2,9,4.436
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,limpo,perona_malik,o jogo foi marcado pela disputa no meio campo,o jogo foi marcado pela disputa no meio campo,0,9,4.436
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,limpo,nenhum,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,0,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,limpo,wiener,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,0,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,limpo,perona_malik,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,0,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,limpo,nenhum,o filme foi lançado pela a vez em mil novecentos e setenta,o filme foi lançado pela vez em mil novecentos e setenta,1,12,5.46
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,limpo,wiener,o filme foi lançado pela a vez em mil novecentos e setenta,o filme foi lançado pela vez em mil novecentos e setenta,1,12,5.46
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,limpo,perona_malik,o filme foi lançado pela a vez em mil novecentos e setenta,o filme foi lançado pela vez em mil novecentos e setenta,1,12,5.46
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,limpo,nenhum,uma página inteira será dedicada a notas e curiosidades,uma página inteira será dedicada a notas e curiosidades,0,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,limpo,wiener,uma página inteira será dedicada a notas e curiosidades,uma página inteira será dedicada a notas e curiosidades,0,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,limpo,perona_malik,uma página inteira será dedicada a notas e curiosidades,uma página inteira será dedicada a notas e curiosidades,0,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,limpo,nenhum,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,pretendo usar um barco peixe queiro brasileiro na minha instalação na bienal,2,11,5.631
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,limpo,wiener,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,pretendo usar um barco peixe queiro brasileiro na minha instalação na bienal,2,11,5.631
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,limpo,perona_malik,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,pretendo usar um barco peixe queiro brasileiro na minha instalação na bienal,2,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,limpo,nenhum,ninguém menos que pelé classificou a colômbia como favorita ao título,ninguém menos que perleca a se ficou a colombia como favorita ao chido,6,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,limpo,wiener,ninguém menos que pelé classificou a colômbia como favorita ao título,ninguém menos que pela época se ficou a colombia como favorito ao chido,7,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,limpo,perona_malik,ninguém menos que pelé classificou a colômbia como favorita ao título,ninguém menos que pelo é classificou a colombia como favorita ao chido,4,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,limpo,nenhum,tem nove quartos e em um deles está o mordomo,tem nove quartos e um deles está o mordo,2,10,4.266
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,limpo,wiener,tem nove quartos e em um deles está o mordomo,tem nove quartos e em um deles está um morrador,2,10,4.266
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,limpo,perona_malik,tem nove quartos e em um deles está o mordomo,tem nove quartos e um deles está um burdo,3,10,4.266
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,limpo,nenhum,pesquisa é uma coisa que muda a toda hora,pesquisa é uma coisa que muda toda a hora,2,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,limpo,wiener,pesquisa é uma coisa que muda a toda hora,pesquisa é uma coisa que muda toda a hora,2,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,limpo,perona_malik,pesquisa é uma coisa que muda a toda hora,pesquisa é uma coisa que muda toda a hora,2,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,limpo,nenhum,itamar tem razão de estar exultante como nunca desde que virou presidente,e tomar ter razão destais o tanto como nunca desde que virou o presidente,7,12,5.801
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,limpo,wiener,itamar tem razão de estar exultante como nunca desde que virou presidente,e tomar ter razão de estais ou tanto como nunca desde que virou o presidente,7,12,5.801
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,limpo,perona_malik,itamar tem razão de estar exultante como nunca desde que virou presidente,e tomar ter razão destais o tanto como nunca desde que virou o presidente,7,12,5.801
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,limpo,nenhum,os problemas surgem nas importações diretas via catálogos por exemplo,problemas surge nas importações diretas via catalas por exemplo,3,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,limpo,wiener,os problemas surgem nas importações diretas via catálogos por exemplo,esproblema é uma estuja mais importação direta de ver a catalogos por exemplo,11,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,limpo,perona_malik,os problemas surgem nas importações diretas via catálogos por exemplo,os problemas estugem nas importações diretas via catalas por exemplo,2,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,limpo,nenhum,cinco frequentemente responde perguntas antes que elas sejam concluídas,sim que frequentemente as pão de perguntas antes que elas sejam concluídas,5,9,5.46
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,limpo,wiener,cinco frequentemente responde perguntas antes que elas sejam concluídas,cinco para quantemente as pão de perguntas antes que elas sejam concluídas,5,9,5.46
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,limpo,perona_malik,cinco frequentemente responde perguntas antes que elas sejam concluídas,sim que frequentemente as pão de perguntas antes que elas sejam concluídas,5,9,5.46
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,limpo,nenhum,não há desculpas para o mau jogo que fizemos contra a arábia,não adiscupas para um álgil que fizemos contra a arabe,6,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,limpo,wiener,não há desculpas para o mau jogo que fizemos contra a arábia,não adesculpas para um álgil que fizemos contra a arabe,6,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,limpo,perona_malik,não há desculpas para o mau jogo que fizemos contra a arábia,não adiscupas para um álgil que fizemos contra a arabe,6,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,limpo,nenhum,em tóquio o dólar fechou cotado a noventa e oito ienes,em toque o dóra fechou cotada no vinte e oito anos,6,11,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,limpo,wiener,em tóquio o dólar fechou cotado a noventa e oito ienes,em toco o dólar ofishou com a tarde a noventa e oito hz,6,11,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,limpo,perona_malik,em tóquio o dólar fechou cotado a noventa e oito ienes,então o dólar fechou cotada no vinte e oito anos,6,11,4.948
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,limpo,nenhum,temos de melhorar a qualidade do ensino especialmente na escola pública,temos de melhorar a qualidade de ensino especialmente na escola pública,1,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,limpo,wiener,temos de melhorar a qualidade do ensino especialmente na escola pública,temos melhorar a qualidade de ensino especialmente na escola pública,2,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,limpo,perona_malik,temos de melhorar a qualidade do ensino especialmente na escola pública,temos de melhorar a qualidade de ensino especialmente na escola pública,1,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,limpo,nenhum,tenho muita vontade de aprender mas baixo poder aquisitivo,tem muita vontade de aprender mas embaixo poder a quisesitiva,4,9,3.924
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,limpo,wiener,tenho muita vontade de aprender mas baixo poder aquisitivo,tem muita vontade de aprender mas embaixo poder a que esitiu,5,9,3.924
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,limpo,perona_malik,tenho muita vontade de aprender mas baixo poder aquisitivo,tem muita vontade de aprender mas embaixo poder a quisesitiva,4,9,3.924
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,limpo,nenhum,no inverno esta variação é menor mas ainda existe,no inverno esta variação menor mas ainda existe,1,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,limpo,wiener,no inverno esta variação é menor mas ainda existe,no inverno esta variação ele não mas ainda existe,2,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,limpo,perona_malik,no inverno esta variação é menor mas ainda existe,no inverno esta variação menor mas em desiste,3,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,limpo,nenhum,o cruzeiro real continua valendo até o dia quinze de julho,coiseiro real continua valendo até o dia quinze de julho,2,11,4.436
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,limpo,wiener,o cruzeiro real continua valendo até o dia quinze de julho,cozeru real continuar valendo até o dia quinze de julho,3,11,4.436
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,limpo,perona_malik,o cruzeiro real continua valendo até o dia quinze de julho,coiseiro real continua valendo até o dia quinze de julho,2,11,4.436
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,limpo,nenhum,não deixe de entrar na galeria pacífico recém restaurada e reformada,não deixe de entrar na galeria pacífico recente restaurada e reformada,1,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,limpo,wiener,não deixe de entrar na galeria pacífico recém restaurada e reformada,não deixe de entrar na galeria pacífico recente restaurada e reformada,1,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,limpo,perona_malik,não deixe de entrar na galeria pacífico recém restaurada e reformada,não deixe de entrar na galeria pacífico recente restaurada reformada,2,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,limpo,nenhum,a classe média paulistana vai às lojas neste natal com mais apetite,a classe média pauli stana vai as lojas neste natal com mais apetite,3,12,5.29
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,limpo,wiener,a classe média paulistana vai às lojas neste natal com mais apetite,a classe média pauli estana vai as dojas neste natal com mais apetite,4,12,5.29
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,limpo,perona_malik,a classe média paulistana vai às lojas neste natal com mais apetite,a classe média pauli stana vai as lojas neste natal com mais apetite,3,12,5.29
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,limpo,nenhum,parece o covas beijando o covas ou a erundina beijando a erundina,parece que o covas beijando covas ou erudina beijanero dina,7,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,limpo,wiener,parece o covas beijando o covas ou a erundina beijando a erundina,parece que o covas beijando covas ou erudina beijanero dina,7,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,limpo,perona_malik,parece o covas beijando o covas ou a erundina beijando a erundina,parece que o covas beijando covas ou erudina beijanero dina,7,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,limpo,nenhum,o governo do rio não terá representante no encontro,o governo do rio não terá representante no encontro,0,9,4.777
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,limpo,wiener,o governo do rio não terá representante no encontro,o governo do rio não terá representante no encontro,0,9,4.777
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,limpo,perona_malik,o governo do rio não terá representante no encontro,o governo do rio não terá representante no encontro,0,9,4.777
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,limpo,nenhum,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,problemas encontrados nos diversos e processos organizacionais possui causas próprias,3,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,limpo,wiener,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,problemas encontrados nos diversos e processos organizacionais possui causas próprias,3,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,limpo,perona_malik,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,problemas encontrados nos diversos e processos organizacionais possui causas próprias,3,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,limpo,nenhum,é um filme com um impacto vigoroso sobre a vida nacional,é um filme com impacto vigoroso sobre a vida nacional,1,11,3.924
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,limpo,wiener,é um filme com um impacto vigoroso sobre a vida nacional,é um filme com impacto vigoroso sobre a vida nacional,1,11,3.924
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,limpo,perona_malik,é um filme com um impacto vigoroso sobre a vida nacional,é um filme com impacto vigoroso sobre a vida nacional,1,11,3.924
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,limpo,nenhum,exibida em duas ou três partes renderia muito mais,exibida em duas ou três partes renderia muito mais,0,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,limpo,wiener,exibida em duas ou três partes renderia muito mais,exibida em dois ou três partes renderia muito mais,1,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,limpo,perona_malik,exibida em duas ou três partes renderia muito mais,exibida em duas ou três partes renderia muito mais,0,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,limpo,nenhum,no passeio ciro também pôde ver a impopularidade do colega argentino,no passeio si do também pode ver a impopularidade do colega argentino,3,11,5.972
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,limpo,wiener,no passeio ciro também pôde ver a impopularidade do colega argentino,no passeio si do também pode ver a impopularidade do colega argentino,3,11,5.972
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,limpo,perona_malik,no passeio ciro também pôde ver a impopularidade do colega argentino,no passeio si do também pode ver a impopularidade do colega argentino,3,11,5.972
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,limpo,nenhum,a melhoria da qualidade não interessa só a técnicos ou empresários,a melhoria da qualidade não interessa sua técnica ou empresários,3,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,limpo,wiener,a melhoria da qualidade não interessa só a técnicos ou empresários,a melhoria da qualidade não interessa sua técnica ou empresário,4,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,limpo,perona_malik,a melhoria da qualidade não interessa só a técnicos ou empresários,a melhoria da qualidade não interessa sua técnica ou empresários,3,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,limpo,nenhum,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,estou muito cheio de pepinas para ficar tratando dos pepinas dos outros,2,12,5.119
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,limpo,wiener,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,0,12,5.119
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,limpo,perona_malik,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,0,12,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,limpo,nenhum,o problema é que a inflação demora um pouco para cair,o problema é que a implação demora um pouco para cair,1,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,limpo,wiener,o problema é que a inflação demora um pouco para cair,o problema é que a inflação demora um pouco para cair,0,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,limpo,perona_malik,o problema é que a inflação demora um pouco para cair,o problema é que a implação demora um pouco para cair,1,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,limpo,nenhum,o importante é que tenho entusiasmo para fazer as coisas,o importante é que tem entusiasmo para fazer as coisas,1,10,4.095
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,limpo,wiener,o importante é que tenho entusiasmo para fazer as coisas,o importante é que tem entusias para fazer as coisas,2,10,4.095
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,limpo,perona_malik,o importante é que tenho entusiasmo para fazer as coisas,o importante é que tem entusiasme para fazer as coisas,2,10,4.095
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,limpo,nenhum,a maternidade agora está capacitada para realizar cento e cinqüenta partos,a maternidade agora está capacitada para realizar cento e cinquenta partes,2,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,limpo,wiener,a maternidade agora está capacitada para realizar cento e cinqüenta partos,a maturidade agora está capacitada para realizar cento e cinquenta partes,3,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,limpo,perona_malik,a maternidade agora está capacitada para realizar cento e cinqüenta partos,a maternidade agora está capacitada para realizar cento e cinquenta partes,2,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,limpo,nenhum,basta uma vitória para o time se classificar para as semifinais,basta uma vitória para o time especificar para este semifinagem,4,11,4.607
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,limpo,wiener,basta uma vitória para o time se classificar para as semifinais,bastão uma vitória para o time especificar para esse emitir nas,6,11,4.607
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,limpo,perona_malik,basta uma vitória para o time se classificar para as semifinais,basta uma vitória para o time se clasificar para este semifinagem,3,11,4.607
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,limpo,nenhum,quem sair por último feche a porta e apague a luz,quem sair por último fecha a porta e apague a luz,1,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,limpo,wiener,quem sair por último feche a porta e apague a luz,quem sair por último faixa porta e apague a luz,2,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,limpo,perona_malik,quem sair por último feche a porta e apague a luz,quem sair por último fecha a porta e apague a luz,1,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,limpo,nenhum,foi definido o campeonato estadual que começa no dia trinta,foi definido o campeonato estadual que começa no dia trinta,0,10,4.777
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,limpo,wiener,foi definido o campeonato estadual que começa no dia trinta,foi definido o campeonato estadual que começando de trinta,3,10,4.777
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,limpo,perona_malik,foi definido o campeonato estadual que começa no dia trinta,foi definido o campeonato estadual que começa no dia trinta,0,10,4.777
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,limpo,nenhum,estava muito calor e não soubemos dosar a energia,estava muito calor e não subimos dois h em energia,4,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,limpo,wiener,estava muito calor e não soubemos dosar a energia,estávamos muito calor e não subvamos de usar a energia,4,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,limpo,perona_malik,estava muito calor e não soubemos dosar a energia,estava muito calor e não subimos dois h em energia,4,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,limpo,nenhum,glória funaro já colocou sua coleção de outono inverno nas prateleiras,agora funaro já colocou sua coleção de uton e ver no nas prateleiras,5,11,5.972
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,limpo,wiener,glória funaro já colocou sua coleção de outono inverno nas prateleiras,agora funaro já colocou sua coleção de autônio e ver no nas prateleiras,5,11,5.972
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,limpo,perona_malik,glória funaro já colocou sua coleção de outono inverno nas prateleiras,agora funaro já colocou sua coleção de uton e ver no nas prateleiras,5,11,5.972
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,limpo,nenhum,a grande virtude da nação brasileira é a tolerância,a grande virtude da nação brasileira é tolerância,1,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,limpo,wiener,a grande virtude da nação brasileira é a tolerância,a grande virtude da nação brasileira e a tolerância,1,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,limpo,perona_malik,a grande virtude da nação brasileira é a tolerância,a grande virtude da nação brasileira e a tolerância,1,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,limpo,nenhum,a permanecer a atual situação será o brasil que não vingará,a permanecer atual situação será o brasil que não vingará,1,11,4.266
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,limpo,wiener,a permanecer a atual situação será o brasil que não vingará,a permanecer atual situação será o brasil que não vingará,1,11,4.266
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,limpo,perona_malik,a permanecer a atual situação será o brasil que não vingará,a permanecer atual situação será o brasil que não vingará,1,11,4.266
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,limpo,nenhum,a apuração passou a ser feita antes do sorteio,a apuração passou a ser feita antes do sorteio,0,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,limpo,wiener,a apuração passou a ser feita antes do sorteio,a apuração passou a ser feita antes do sorteio,0,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,limpo,perona_malik,a apuração passou a ser feita antes do sorteio,a apuração passou a ser feita antes do sorteio,0,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,limpo,nenhum,como vocês puderam ver na copa faltam atacantes na itália,como vocês puderam ver na copa faltam atacante na itália,1,10,3.753
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,limpo,wiener,como vocês puderam ver na copa faltam atacantes na itália,como vocês puderam ver na copa falta um atacante na itália,3,10,3.753
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,limpo,perona_malik,como vocês puderam ver na copa faltam atacantes na itália,como vocês puderam ver na copa faltam atacante na itália,1,10,3.753
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,limpo,nenhum,ser moderno é ser profissional e não inventar desculpas,ser moderno é ser profissional e não inventar desculpas,0,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,limpo,wiener,ser moderno é ser profissional e não inventar desculpas,ser moderno é ser profissional e não inventar desculpas,0,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,limpo,perona_malik,ser moderno é ser profissional e não inventar desculpas,ser moderno é ser profissional e não inventar desculpas,0,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,limpo,nenhum,as cadernetas rendem vinte e oito por cento no dia quinze,as cadernetas rendem vinte e oito por cento no dia quinze,0,11,5.972
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,limpo,wiener,as cadernetas rendem vinte e oito por cento no dia quinze,as cadernetas rendem vinte e oito por cento no dia quinze,0,11,5.972
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,limpo,perona_malik,as cadernetas rendem vinte e oito por cento no dia quinze,as cadernetas rendem vinte e oito por cento no dia quinze,0,11,5.972
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,limpo,nenhum,a medida valeria após trinta dias desde a sua aprovação,a medida falaria após trinta dias desde sua provação,3,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,limpo,wiener,a medida valeria após trinta dias desde a sua aprovação,a medida falaria após trinta dias desde sua provação,3,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,limpo,perona_malik,a medida valeria após trinta dias desde a sua aprovação,a medida falaria após trinta dias desde sua provação,3,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,limpo,nenhum,está sendo feito um investimento de dois bilhões de dólares,estou sendo feito investimentos de dois bilhões de dólares,3,10,4.266
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,limpo,wiener,está sendo feito um investimento de dois bilhões de dólares,está sendo feito investimento de dois bilhões de dólares,1,10,4.266
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,limpo,perona_malik,está sendo feito um investimento de dois bilhões de dólares,estou sendo feito investimentos de dois bilhões de dólares,3,10,4.266
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,limpo,nenhum,você foi sem calcinha para o camarote do presidente no sambódromo,você foi sem calcinha para o camarote do presidente no sambodro,1,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,limpo,wiener,você foi sem calcinha para o camarote do presidente no sambódromo,você foi sem calcinha para o camarote do presidente no sambodro,1,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,limpo,perona_malik,você foi sem calcinha para o camarote do presidente no sambódromo,você foi sem calcinha para o camarote do presidente no sambodro,1,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,limpo,nenhum,o advogado do filósofo mário simas vai recorrer da decisão,o adivogado do filósofo mais de cima vai recorrer na decisão,5,10,3.753
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,limpo,wiener,o advogado do filósofo mário simas vai recorrer da decisão,o adivogado do filósofo mais de cima vai recorrer na decisão,5,10,3.753
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,limpo,perona_malik,o advogado do filósofo mário simas vai recorrer da decisão,o adivogado do filósofo mais de cima vai recorrer na decisão,5,10,3.753
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,limpo,nenhum,a câmara teria quinhentas e cinqüenta e cinco cadeiras,a camara teria quinhentos e cinquenta e cinco cadeiras,3,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,limpo,wiener,a câmara teria quinhentas e cinqüenta e cinco cadeiras,a camara teria quinhentos e cinquenta e cinco cadeiras,3,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,limpo,perona_malik,a câmara teria quinhentas e cinqüenta e cinco cadeiras,a camara teria quinhentos e cinquenta e cinco cadeiras,3,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,limpo,nenhum,o melhor resultado foi registrado na região metropolitana de salvador,o melhor resultado foi registrado na região metropolitana de salvador,0,10,4.436
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,limpo,wiener,o melhor resultado foi registrado na região metropolitana de salvador,o melhor resultado foi registrado na região metropolitana de salvador,0,10,4.436
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,limpo,perona_malik,o melhor resultado foi registrado na região metropolitana de salvador,o melhor resultado foi registrado na região metropolitana de salvador,0,10,4.436
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,limpo,nenhum,foi um grande desgaste porque ela ficou dois anos doente,foi um grande desgaste porque ela ficou dois anos doente,0,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,limpo,wiener,foi um grande desgaste porque ela ficou dois anos doente,foi um grande desgaste porque ela ficou dois anos doente,0,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,limpo,perona_malik,foi um grande desgaste porque ela ficou dois anos doente,foi um grande desgaste porque ela ficou dois anos doente,0,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,limpo,nenhum,acho que a gastrite foi uma descarga da parte psicológica no corpo,acho que a gastrite foi uma descarga da parte psicológica no cul,1,12,4.095
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,limpo,wiener,acho que a gastrite foi uma descarga da parte psicológica no corpo,acho que a gastrite foi uma descarga da parte psicológica no cul,1,12,4.095
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,limpo,perona_malik,acho que a gastrite foi uma descarga da parte psicológica no corpo,acho que a gastrite foi uma descarga da parte psicológica no cul,1,12,4.095
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,limpo,nenhum,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,ante ontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,2,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,limpo,wiener,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,ante ontem astronautas realizaram experiências científicas à bordo do ônibus espacial columbia,3,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,limpo,perona_malik,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,ante ontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,2,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,limpo,nenhum,os belgas reclamaram mas o juiz não deu o pênalti,os belgas reclamaram mas juiz não deu o penote,2,10,3.412
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,limpo,wiener,os belgas reclamaram mas o juiz não deu o pênalti,os vegas reclamaram mas juiz não deu o penote,3,10,3.412
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,limpo,perona_malik,os belgas reclamaram mas o juiz não deu o pênalti,os belgas reclamaram mas juiz não deu o penote,2,10,3.412
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,limpo,nenhum,agora tudo isso acabou e eu fico tendo idéias estranhas,agora tudo isso acabou eu fico tenidez que estranhas,3,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,limpo,wiener,agora tudo isso acabou e eu fico tendo idéias estranhas,agora tudo isso acabou e eu fico tenidez e estranhos,3,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,limpo,perona_malik,agora tudo isso acabou e eu fico tendo idéias estranhas,agora tudo isso acabou e eu fico tenidez que estranhas,2,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,limpo,nenhum,os intervalos dos telejornais são hoje mais valorizados,os intervalos e telas de ornais são os mais valorizados,5,8,3.35
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,limpo,wiener,os intervalos dos telejornais são hoje mais valorizados,os intervalos do estela de ornais são hoje mais valorizados,4,8,3.35
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,limpo,perona_malik,os intervalos dos telejornais são hoje mais valorizados,os intervalos e telas de ornais são os mais valorizados,5,8,3.35
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,limpo,nenhum,a operação é feita através da emissão de notas fiscais frias,a operação é feita através da emissão de notos fiscas frias,2,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,limpo,wiener,a operação é feita através da emissão de notas fiscais frias,a operação é feita através da emissão de notos fechicas frias,2,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,limpo,perona_malik,a operação é feita através da emissão de notas fiscais frias,a operação é feita através da missão de notos fiscas frias,3,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,limpo,nenhum,nas finalizações a holanda ganha de oitenta a sessenta e três,na finalização a londa ganha de oitenta a sessenta e três,3,11,4.436
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,limpo,wiener,nas finalizações a holanda ganha de oitenta a sessenta e três,na finalização a olão da ganha de oitenta a sessenta e três,4,11,4.436
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,limpo,perona_malik,nas finalizações a holanda ganha de oitenta a sessenta e três,na finalização zolanda ganha de oitenta a sessenta e três,4,11,4.436
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,limpo,nenhum,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,vocabular e da sexualidade foi repalecendo progressivamente há dez anos,3,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,limpo,wiener,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,vocabulares da sexualidade foi aparecendo progressivamente há dez anos,3,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,limpo,perona_malik,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,vocabular e da sexualidade foi repalhecendo progressivamente há dez anos,3,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,limpo,nenhum,junto dela havia vinte e dois livros com a contabilidade do bicheiro,junto dela havia vinte e dois livros com a contabilidade do bichero,1,12,4.607
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,limpo,wiener,junto dela havia vinte e dois livros com a contabilidade do bicheiro,junto dela havia vinte e dois livros com a contabilidade do bichero,1,12,4.607
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,limpo,perona_malik,junto dela havia vinte e dois livros com a contabilidade do bicheiro,junto dela havia vinte e dois livros com a contabilidade do bichero,1,12,4.607
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,snr10,nenhum,o mercado fica de alto risco a curto prazo,e não é para o que que eu já ou seja para o que que eu já ou seja,18,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,snr10,wiener,o mercado fica de alto risco a curto prazo,no caso se resolve vinte por cento prazer,9,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,snr10,perona_malik,o mercado fica de alto risco a curto prazo,não é para a gente que os lados de mim para que os lados de mim para que os lados de mim,21,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,snr10,nenhum,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,a gente vai ir em domençado e pau de deus e a gente vai ir em pau de deus e a gente vai ir em pau de deus,26,12,4.607
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,snr10,wiener,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,estraver a indústria de emfalso de zero fans que a indústria emfalso,12,12,4.607
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,snr10,perona_malik,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,a gente vai errar em domençado em pau de vida e a gente vai errar em pau,15,12,4.607
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,snr10,nenhum,juro para capital de giro chega a cento e quarenta por cento ao ano,e tudo para passar com tudo que eu estou sentindo em casa,14,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,snr10,wiener,juro para capital de giro chega a cento e quarenta por cento ao ano,se quiser para passar o vídeo se deixou de descansar e deixou de descansar,14,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,snr10,perona_malik,juro para capital de giro chega a cento e quarenta por cento ao ano,,14,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,snr10,nenhum,chega a secretário da cultura com amplo apoio de intelectuais e artistas,se a dr carada sua sureção em que a sua e o dia que lua e a sua e a sua e a sua e a sua e a sua e a sua e a sua,34,12,4.948
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,snr10,wiener,chega a secretário da cultura com amplo apoio de intelectuais e artistas,seja de acertar e desculpasso e desculpasso e desculpasso e desculpasso e desculpasso,12,12,4.948
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,snr10,perona_malik,chega a secretário da cultura com amplo apoio de intelectuais e artistas,se eu deixo de setar de vocês tudo isso é a entsas eu espero que vocês gostoei,17,12,4.948
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,snr10,nenhum,o carro rodopiou na pista molhada e bateu no caminhão,o que é que eu não tenho de ter uma olhada e que eu não tenho de ter uma olhada,18,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,snr10,wiener,o carro rodopiou na pista molhada e bateu no caminhão,o carro do que é o nazista mojada e o batelho caminão,9,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,snr10,perona_malik,o carro rodopiou na pista molhada e bateu no caminhão,o que é o que é o que é o que é,11,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,snr10,nenhum,dois o piloto teve morte cerebral instantânea no momento do acidente,dois o piloto tem de morcer e a brava instantõe no momento do tempo,8,11,4.436
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,snr10,wiener,dois o piloto teve morte cerebral instantânea no momento do acidente,então os pedotes têm o março de abração antônio no momento que eu soube,12,11,4.436
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,snr10,perona_malik,dois o piloto teve morte cerebral instantânea no momento do acidente,dô te o pilô te tem o março de avalançante ao ano de momento e o pilô,15,11,4.436
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,snr10,nenhum,esta espécie de ruído desaparece após uma noite de sono,é este aspecto de ruído e de raparece apoio na noite de sonha,9,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,snr10,wiener,esta espécie de ruído desaparece após uma noite de sono,esta espécie de ruído de na parecia foi uma noite de som,5,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,snr10,perona_malik,esta espécie de ruído desaparece após uma noite de sono,aista espécie de reunido e de raparece apoi uma noite de sonha,7,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,snr10,nenhum,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,do juicio e o preno que atose por um par de trabalho de honra vista,13,10,5.46
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,snr10,wiener,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,dos nítios e os prenos catorze foram para trabalhos de honravista,6,10,5.46
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,snr10,perona_malik,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,do juicio e o preno que a todos foram para levarmos na vista,10,10,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,snr10,nenhum,análise de viés psicológico da obra de guimarães rosa,eu não sei o que eu coloco não sei o que eu não sei o que eu não eu coloco,20,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,snr10,wiener,análise de viés psicológico da obra de guimarães rosa,é mais do que eu qual é o que não é o que não é o que não é,19,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,snr10,perona_malik,análise de viés psicológico da obra de guimarães rosa,eu não sei o que eu coloco eu não sei o que eu não sei o que eu não sei,20,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,snr10,nenhum,hoje o índio só responde à constituição se solicitar sua emancipação,北ou às vezes eu podé mandar porque meu entende ou foi os artes que eu estasteu em aitan克,18,11,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,snr10,wiener,hoje o índio só responde à constituição se solicitar sua emancipação,parkedom de sucesso de cinco por cento e cinco por cento e cinco por cento vai ser meraço,18,11,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,snr10,perona_malik,hoje o índio só responde à constituição se solicitar sua emancipação,oito de dentro do que eu estou do que eu estou do que eu estou do que eu estou do que eu estou,23,11,5.46
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,snr10,nenhum,o sequestro de bens serviria para garantir o pagamento,e depois no dia em dia para dar um chute alaneado,10,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,snr10,wiener,o sequestro de bens serviria para garantir o pagamento,então faz se no jogo se desviar para dar um chupalhamento,10,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,snr10,perona_malik,o sequestro de bens serviria para garantir o pagamento,eu vou fazer isso aqui mas não vou fazer isso aqui mas não vou fazer isso aqui,17,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,snr10,nenhum,xavier descarta a hipótese de o caixão ter sido violado,se a viagem está feitado em um dia vai chamar que isso viu lá,14,10,4.777
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,snr10,wiener,xavier descarta a hipótese de o caixão ter sido violado,se a gente tá sai fórdese de mim e a chão interciso de olhar,13,10,4.777
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,snr10,perona_malik,xavier descarta a hipótese de o caixão ter sido violado,se a viagem está feita o dia e o paciante e o dia lá,13,10,4.777
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,snr10,nenhum,eu sou fiel aos meus amigos e eles são fiéis a mim,eu sou o fio eu sou o fio eu sou o fio eu sou o fio,14,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,snr10,wiener,eu sou fiel aos meus amigos e eles são fiéis a mim,eu sou o fia ou seja eu sou o fia ou seja eu sou o fia ou seja,16,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,snr10,perona_malik,eu sou fiel aos meus amigos e eles são fiéis a mim,eu sou o fio eu sou o fio eu sou o fio,10,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,snr10,nenhum,o jogo foi marcado pela disputa no meio campo,e o jogo foi marcado que ela te puta no meio de mim,7,9,4.436
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,snr10,wiener,o jogo foi marcado pela disputa no meio campo,e o ovo foi na sala que ela te puta no meio,9,9,4.436
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,snr10,perona_malik,o jogo foi marcado pela disputa no meio campo,e o jogo também não sabe se ela te puta no meio de mim,10,9,4.436
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,snr10,nenhum,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,nencho no mundo de dor ele está com o vio da minha grava e ele está com o vio da minha grava,21,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,snr10,wiener,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,e isso não é legal mas não é legal mas não é legal mas não é legal,17,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,snr10,perona_malik,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,nencho do mundo de dor e o que ele vai fazer com a vida e o que ele vai fazer,19,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,snr10,nenhum,o filme foi lançado pela a vez em mil novecentos e setenta,o que você não sabe o que eu tenho o que você não sabe,13,12,5.46
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,snr10,wiener,o filme foi lançado pela a vez em mil novecentos e setenta,o que você não sabe o que ela vê o que você não sabe o que você não sabe,18,12,5.46
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,snr10,perona_malik,o filme foi lançado pela a vez em mil novecentos e setenta,o que você não sabe o que eu tenho o que você não sabe o que eu tenho,17,12,5.46
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,snr10,nenhum,uma página inteira será dedicada a notas e curiosidades,uma página inteira será dedicada a notas e curiosidades,0,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,snr10,wiener,uma página inteira será dedicada a notas e curiosidades,uma página inteira será dedicada a notas de curiosidade,2,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,snr10,perona_malik,uma página inteira será dedicada a notas e curiosidades,uma página inteira será dedicada a notos e curiosidades,1,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,snr10,nenhum,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,pretendo usar um barco e esquerdo brasileiro na minha instalação na bienal,2,11,5.631
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,snr10,wiener,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,pretendo usar um barco e esquerdo brasileiro na minha instalação na do final,4,11,5.631
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,snr10,perona_malik,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,pretendo usar um barco e esquerdo brasileiro na minha instalação na bienal,2,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,snr10,nenhum,ninguém menos que pelé classificou a colômbia como favorita ao título,ninguém é necessário atastar com o olho como o favorito do que isso é,12,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,snr10,wiener,ninguém menos que pelé classificou a colômbia como favorita ao título,e nem a necessidade é necessidade de onde é como favorito ao cheiozinho,11,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,snr10,perona_malik,ninguém menos que pelé classificou a colômbia como favorita ao título,ninguém é necessário atestuar com o olho com o poder e toquisar,11,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,snr10,nenhum,tem nove quartos e em um deles está o mordomo,o meu abocado que o meu abocado é o meu abocado,10,10,4.266
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,snr10,wiener,tem nove quartos e em um deles está o mordomo,um dois três quatro quatro cinco cinco cinco cinco cinco,10,10,4.266
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,snr10,perona_malik,tem nove quartos e em um deles está o mordomo,o nome do parque o nome do parque o nome do parque,11,10,4.266
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,snr10,nenhum,pesquisa é uma coisa que muda a toda hora,eu acho que isso é uma coisa que muda toda a uma vez,7,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,snr10,wiener,pesquisa é uma coisa que muda a toda hora,e isso é uma coisa que não dá pra dar uma outra,8,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,snr10,perona_malik,pesquisa é uma coisa que muda a toda hora,eu acho que isso é mais coisa que eu não deixo da alma,10,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,snr10,nenhum,itamar tem razão de estar exultante como nunca desde que virou presidente,e também até não despreio ter que formar,11,12,5.801
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,snr10,wiener,itamar tem razão de estar exultante como nunca desde que virou presidente,isso é uma senhora de estais é uma fomomomomomomomomomomomomomomomomomomomom,12,12,5.801
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,snr10,perona_malik,itamar tem razão de estar exultante como nunca desde que virou presidente,e também até não despreio ter que formar isso,11,12,5.801
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,snr10,nenhum,os problemas surgem nas importações diretas via catálogos por exemplo,podemos que o inimigo não está passando em direto de cada talo de quatro dias,15,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,snr10,wiener,os problemas surgem nas importações diretas via catálogos por exemplo,podemos ir em mais empatação de reedas de etapa para o seu desenho,13,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,snr10,perona_malik,os problemas surgem nas importações diretas via catálogos por exemplo,,10,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,snr10,nenhum,cinco frequentemente responde perguntas antes que elas sejam concluídas,muito pretmente eu mecho a esconder que eles não são tão chiqueis mas eu mecho a esconder que eles não estão te cala e se não me estruida,27,9,5.46
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,snr10,wiener,cinco frequentemente responde perguntas antes que elas sejam concluídas,sim para fazer nesses quantos mesmas são os que elas seram de trida,11,9,5.46
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,snr10,perona_malik,cinco frequentemente responde perguntas antes que elas sejam concluídas,muito para você me achar com o que vocês não deixem que ela se vê na minha vida,17,9,5.46
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,snr10,nenhum,não há desculpas para o mau jogo que fizemos contra a arábia,não há desculpes para um ao jogo que tivemos contrarado,7,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,snr10,wiener,não há desculpas para o mau jogo que fizemos contra a arábia,não há desculpas para o meu jogo que fizemos contrarado,4,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,snr10,perona_malik,não há desculpas para o mau jogo que fizemos contra a arábia,não há desculpe para o mau jogo que tivemos contrarado,5,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,snr10,nenhum,em tóquio o dólar fechou cotado a noventa e oito ienes,em toque o dora puxiu o cotado na vinte e oito anos,7,11,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,snr10,wiener,em tóquio o dólar fechou cotado a noventa e oito ienes,em torco o doura se chupotará nos vinte e oito anos,7,11,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,snr10,perona_malik,em tóquio o dólar fechou cotado a noventa e oito ienes,em toque o doura fechou patada no vinte e oito anos,6,11,4.948
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,snr10,nenhum,temos de melhorar a qualidade do ensino especialmente na escola pública,o que você não vai fazer aqui é que você vai fazer aqui é que você vai fazer aqui,19,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,snr10,wiener,temos de melhorar a qualidade do ensino especialmente na escola pública,se você não estiver lá vai lá e se você se esqueça muito de farce,15,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,snr10,perona_malik,temos de melhorar a qualidade do ensino especialmente na escola pública,o que você não vai fazer aqui você vai fazer aqui você vai fazer aqui,15,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,snr10,nenhum,tenho muita vontade de aprender mas baixo poder aquisitivo,e a minha vida não está agirpendo isso mas não está agirpendo isso,12,9,3.924
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,snr10,wiener,tenho muita vontade de aprender mas baixo poder aquisitivo,e nunca vão pagar por um deus,9,9,3.924
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,snr10,perona_malik,tenho muita vontade de aprender mas baixo poder aquisitivo,e a minha vida não está jogando isso mas não está jogando isso,12,9,3.924
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,snr10,nenhum,no inverno esta variação é menor mas ainda existe,muito bem esta variação é meu mais bem difícil,6,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,snr10,wiener,no inverno esta variação é menor mas ainda existe,muy bien esta varia é só um menó mais em disney,9,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,snr10,perona_malik,no inverno esta variação é menor mas ainda existe,muito bem esta variação é meu mais bem difícil,6,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,snr10,nenhum,o cruzeiro real continua valendo até o dia quinze de julho,e ver o real continua a valendo o que vai direto e de junho,10,11,4.436
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,snr10,wiener,o cruzeiro real continua valendo até o dia quinze de julho,os reiros não continuam valendo ser dia quinze de julho,6,11,4.436
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,snr10,perona_malik,o cruzeiro real continua valendo até o dia quinze de julho,o vero é ao continuar valendo o que vai direto e de junho,10,11,4.436
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,snr10,nenhum,não deixe de entrar na galeria pacífico recém restaurada e reformada,não deixe de entrar na galeria pacífica e reciência oral de reforma,6,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,snr10,wiener,não deixe de entrar na galeria pacífico recém restaurada e reformada,não deixe de entrar na galeria pacífica sem restaurar de reforma,5,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,snr10,perona_malik,não deixe de entrar na galeria pacífico recém restaurada e reformada,não deixe de entrar na galeria passi e ressensista o lado de hitoma,7,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,snr10,nenhum,a classe média paulistana vai às lojas neste natal com mais apetite,a classe média polistona vai as bojas nesse notal com mais atitudes,6,12,5.29
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,snr10,wiener,a classe média paulistana vai às lojas neste natal com mais apetite,a classe média polistona vai as bojas nesse metal com mais até que,7,12,5.29
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,snr10,perona_malik,a classe média paulistana vai às lojas neste natal com mais apetite,a classe média polistona vai as bolas em base no tal com mais atitudes,8,12,5.29
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,snr10,nenhum,parece o covas beijando o covas ou a erundina beijando a erundina,parece que o cova de jão do qualmas do leridina de jão leridina,11,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,snr10,wiener,parece o covas beijando o covas ou a erundina beijando a erundina,parece que o cova beijando cola do herodina de janeiro do rio,10,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,snr10,perona_malik,parece o covas beijando o covas ou a erundina beijando a erundina,parece que o cova de jão do cova do herodino de jão do herodino,12,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,snr10,nenhum,o governo do rio não terá representante no encontro,o governo do juno era representativo em conta,6,9,4.777
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,snr10,wiener,o governo do rio não terá representante no encontro,o governo do rio não tem raheta da taxa e nem conta,7,9,4.777
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,snr10,perona_malik,o governo do rio não terá representante no encontro,o governo do juno que era representativo em conta,6,9,4.777
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,snr10,nenhum,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,problemas encontrada de uma diversa e de processo de organização não é de possível ser causas próprias,14,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,snr10,wiener,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,problemas encontrado nos diversos e processos organizacionais por ser caldas próprias,6,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,snr10,perona_malik,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,problemas encontradas em diversos e processos onde a necessidade possui causas próprias,8,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,snr10,nenhum,é um filme com um impacto vigoroso sobre a vida nacional,é um filme com impacto vigoroso sobre a vida nacional,1,11,3.924
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,snr10,wiener,é um filme com um impacto vigoroso sobre a vida nacional,é um filme com impacto vigoroso sobre a vida nacional,1,11,3.924
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,snr10,perona_malik,é um filme com um impacto vigoroso sobre a vida nacional,é um filme com impacto vigoroso sobre a vida nacional,1,11,3.924
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,snr10,nenhum,exibida em duas ou três partes renderia muito mais,exibido em dois ou três partes em três dias muito mais,5,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,snr10,wiener,exibida em duas ou três partes renderia muito mais,exibida em dois a três partes enderia muito mais,3,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,snr10,perona_malik,exibida em duas ou três partes renderia muito mais,exibido em dois ou três partes em três dias muito mais,5,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,snr10,nenhum,no passeio ciro também pôde ver a impopularidade do colega argentino,no passeio e do também pode ver a insculpularidade de colher a gente,8,11,5.972
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,snr10,wiener,no passeio ciro também pôde ver a impopularidade do colega argentino,no passeio cido também pode ver em popularidade de colega gente,6,11,5.972
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,snr10,perona_malik,no passeio ciro também pôde ver a impopularidade do colega argentino,no passeio e do também pode ver a insculpularidade de colega gente,6,11,5.972
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,snr10,nenhum,a melhoria da qualidade não interessa só a técnicos ou empresários,a melhoria da qualidade vão ter essa forma de ver o que é que eu vou empregar,13,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,snr10,wiener,a melhoria da qualidade não interessa só a técnicos ou empresários,a melodia da qualidade vão ter essa sua técnica ou empresário,7,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,snr10,perona_malik,a melhoria da qualidade não interessa só a técnicos ou empresários,a melodia da coletagem vão ter esses portes que aqui são os empresários,10,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,snr10,nenhum,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,e comente o cheio de ter tido para ficar para estar com o cheio de ter tido,13,12,5.119
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,snr10,wiener,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,e com muito feio de petina para que está tratando de petir o mundo,10,12,5.119
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,snr10,perona_malik,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,e comente que este dia é para ficar para dar um dia que este dia não existe,15,12,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,snr10,nenhum,o problema é que a inflação demora um pouco para cair,e que tudo bem não vai ser que tudo é todo não vai ser que tudo é todo,17,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,snr10,wiener,o problema é que a inflação demora um pouco para cair,o problema é que ele está falando de volta com o caracelho,8,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,snr10,perona_malik,o problema é que a inflação demora um pouco para cair,e tudo bem né eu acho que eu acho que eu acho que eu acho que eu acho que eu acho que eu acho que,24,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,snr10,nenhum,o importante é que tenho entusiasmo para fazer as coisas,é importante que tudo isso e a gente para fazer tudo,9,10,4.095
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,snr10,wiener,o importante é que tenho entusiasmo para fazer as coisas,é importante é que tem gente que seja a gente para fazer as coisas,7,10,4.095
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,snr10,perona_malik,o importante é que tenho entusiasmo para fazer as coisas,é importante que o que o que o que o que o que o que a a a a a a a a a a,23,10,4.095
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,snr10,nenhum,a maternidade agora está capacitada para realizar cento e cinqüenta partos,,11,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,snr10,wiener,a maternidade agora está capacitada para realizar cento e cinqüenta partos,,11,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,snr10,perona_malik,a maternidade agora está capacitada para realizar cento e cinqüenta partos,,11,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,snr10,nenhum,basta uma vitória para o time se classificar para as semifinais,quatro homens de toda a traduquinha se esticar para a gente,9,11,4.607
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,snr10,wiener,basta uma vitória para o time se classificar para as semifinais,façou uma guitarra para que isso fosse ficar para quem está,8,11,4.607
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,snr10,perona_malik,basta uma vitória para o time se classificar para as semifinais,mas só não de toda a traduquista de ficar para a traduquista em cima,13,11,4.607
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,snr10,nenhum,quem sair por último feche a porta e apague a luz,pensei por o que saixe a força e a paga me,9,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,snr10,wiener,quem sair por último feche a porta e apague a luz,pensa aí por último fecha a força e apagamos,7,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,snr10,perona_malik,quem sair por último feche a porta e apague a luz,pensei por o tinta eixa por se afarguem,10,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,snr10,nenhum,foi definido o campeonato estadual que começa no dia trinta,pode definir o campeonato de todo o álcool com mais um dia trinta,9,10,4.777
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,snr10,wiener,foi definido o campeonato estadual que começa no dia trinta,foi definido com que o nacha do álfico nasce a minha jeterinha,9,10,4.777
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,snr10,perona_malik,foi definido o campeonato estadual que começa no dia trinta,pode definir o campeonato de todo o áudio com mais um dia trinta,9,10,4.777
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,snr10,nenhum,estava muito calor e não soubemos dosar a energia,estávamos muito favor não podemos rodar a energia,5,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,snr10,wiener,estava muito calor e não soubemos dosar a energia,estávamos muito valor que não soubendo jogar a energia,5,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,snr10,perona_malik,estava muito calor e não soubemos dosar a energia,estávamos muito favor não podemos rodar a energia,5,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,snr10,nenhum,glória funaro já colocou sua coleção de outono inverno nas prateleiras,glória cenário já colocou sua coleção do conjerno na espatileira,6,11,5.972
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,snr10,wiener,glória funaro já colocou sua coleção de outono inverno nas prateleiras,glória cenário já colocou sua coleção do pony gerno na statilíria,6,11,5.972
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,snr10,perona_malik,glória funaro já colocou sua coleção de outono inverno nas prateleiras,glória cenário japonocosa coleção do conjerno na espatileiro,9,11,5.972
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,snr10,nenhum,a grande virtude da nação brasileira é a tolerância,a grande virtude da nassão brasileira é tolerância,2,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,snr10,wiener,a grande virtude da nação brasileira é a tolerância,a grande virtude da nação brasileira tolerons,3,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,snr10,perona_malik,a grande virtude da nação brasileira é a tolerância,a grande giflida nação brasileira é colherência,4,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,snr10,nenhum,a permanecer a atual situação será o brasil que não vingará,a permanecer a posto com ação será o brasil que não engundará,4,11,4.266
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,snr10,wiener,a permanecer a atual situação será o brasil que não vingará,a permanecer a força com ação será o brasil que não vingará,3,11,4.266
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,snr10,perona_malik,a permanecer a atual situação será o brasil que não vingará,a permanecer a posto com ação será o brasil que não engundará,4,11,4.266
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,snr10,nenhum,a apuração passou a ser feita antes do sorteio,aproção da sua fecha e a sua fecha e a sua fecha,11,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,snr10,wiener,a apuração passou a ser feita antes do sorteio,apera se em posto e segredão e segredão,9,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,snr10,perona_malik,a apuração passou a ser feita antes do sorteio,after ação para o seu seu seu seu seu seu seu seu,12,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,snr10,nenhum,como vocês puderam ver na copa faltam atacantes na itália,e eu não sei se eu não sei o que eu não estou com a falsa e que eu não estou com a falsa,24,10,3.753
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,snr10,wiener,como vocês puderam ver na copa faltam atacantes na itália,se você se derrê me a qual foi a falsa da falsa falsa falsa falsa,15,10,3.753
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,snr10,perona_malik,como vocês puderam ver na copa faltam atacantes na itália,,10,10,3.753
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,snr10,nenhum,ser moderno é ser profissional e não inventar desculpas,o que é o que é o que é o que é,11,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,snr10,wiener,ser moderno é ser profissional e não inventar desculpas,de uma vez eu sei que eu sei que eu não sei que eu não sei que eu não sei que eu sei,22,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,snr10,perona_malik,ser moderno é ser profissional e não inventar desculpas,,9,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,snr10,nenhum,as cadernetas rendem vinte e oito por cento no dia quinze,,11,11,5.972
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,snr10,wiener,as cadernetas rendem vinte e oito por cento no dia quinze,as pessoas neleam que eles me deixam que eles me deixam que eles me deixam,14,11,5.972
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,snr10,perona_malik,as cadernetas rendem vinte e oito por cento no dia quinze,,11,11,5.972
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,snr10,nenhum,a medida valeria após trinta dias desde a sua aprovação,a medida valeria após direto a direção das próprias novas,6,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,snr10,wiener,a medida valeria após trinta dias desde a sua aprovação,a medida valedia apostenta de ver se é a sua preocupação,7,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,snr10,perona_malik,a medida valeria após trinta dias desde a sua aprovação,a medida valeria a postreta de de de de de de de de de de de,13,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,snr10,nenhum,está sendo feito um investimento de dois bilhões de dólares,estou sendo feito investimento de doze anos de dólares,4,10,4.266
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,snr10,wiener,está sendo feito um investimento de dois bilhões de dólares,só se é do feito investimento de doze anos de dólares,7,10,4.266
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,snr10,perona_malik,está sendo feito um investimento de dois bilhões de dólares,estou sendo feito o vestimento de doze anos de dólares,5,10,4.266
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,snr10,nenhum,você foi sem calcinha para o camarote do presidente no sambódromo,você foi sem calcinha para que é o maior que o presidente no sambodo,6,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,snr10,wiener,você foi sem calcinha para o camarote do presidente no sambódromo,você foi sem calcinha para o camarote que o presidente nos sambodou,4,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,snr10,perona_malik,você foi sem calcinha para o camarote do presidente no sambódromo,você foi sem calcinha parte com maior dificilmente no sambodo,6,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,snr10,nenhum,o advogado do filósofo mário simas vai recorrer da decisão,vou adivolgar o seu fuso com mais destima vai recorrer essa decisão,8,10,3.753
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,snr10,wiener,o advogado do filósofo mário simas vai recorrer da decisão,pode rogar os filhosos com mais de cima vai recorrer na decisão,9,10,3.753
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,snr10,perona_malik,o advogado do filósofo mário simas vai recorrer da decisão,vou adivogá lo dos filôs de fumar de cima vai recorrer essa decisão,10,10,3.753
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,snr10,nenhum,a câmara teria quinhentas e cinqüenta e cinco cadeiras,a câmara teria quinhentos e cinquenta e cinco cadeiras,2,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,snr10,wiener,a câmara teria quinhentas e cinqüenta e cinco cadeiras,a câmara seria quinhentos e cinquenta e cinco cadeira,4,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,snr10,perona_malik,a câmara teria quinhentas e cinqüenta e cinco cadeiras,a câmara teria quinhentos e cinquenta e cinco cadeiras,2,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,snr10,nenhum,o melhor resultado foi registrado na região metropolitana de salvador,o melhor resultado foi registrado na região metropolitana de salvador,0,10,4.436
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,snr10,wiener,o melhor resultado foi registrado na região metropolitana de salvador,o melhor resultado foi registrado na região metropolitana de salvador,0,10,4.436
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,snr10,perona_malik,o melhor resultado foi registrado na região metropolitana de salvador,o melhor resultado foi registrado na região metropolitana de salvador,0,10,4.436
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,snr10,nenhum,foi um grande desgaste porque ela ficou dois anos doente,foi um grande desgaste porque ela ficou dois anos ago,1,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,snr10,wiener,foi um grande desgaste porque ela ficou dois anos doente,foi um grande desgraixa que ela ficou dois anos doente,2,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,snr10,perona_malik,foi um grande desgaste porque ela ficou dois anos doente,foi um grande diagnóstico que ela ficou dois anos ago,3,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,snr10,nenhum,acho que a gastrite foi uma descarga da parte psicológica no corpo,achei a gastar isso com a humanitária da parte de colores para o mundo,12,12,4.095
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,snr10,wiener,acho que a gastrite foi uma descarga da parte psicológica no corpo,a gente tem a gastar isso foi uma necessária da parte de que colores são no fundo,11,12,4.095
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,snr10,perona_malik,acho que a gastrite foi uma descarga da parte psicológica no corpo,achei a gastar isso para o humanitário depois de colocar isso no fundo,12,12,4.095
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,snr10,nenhum,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,ante ontem astronautas realizados perintestentistas a bordo dones de especial com o mundo,11,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,snr10,wiener,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,ante ontem astronautas realizar as príncias científicas abordos onde os paceles com o mundo,12,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,snr10,perona_malik,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,ante ontem astronautas realizados perintestentistas a bordo dones de especial com o mundo,11,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,snr10,nenhum,os belgas reclamaram mas o juiz não deu o pênalti,os vegas reclamaram mas não deu pena,5,10,3.412
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,snr10,wiener,os belgas reclamaram mas o juiz não deu o pênalti,os vegas reclamaram mas não deu pena,5,10,3.412
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,snr10,perona_malik,os belgas reclamaram mas o juiz não deu o pênalti,os vegas reclamaram mas isso não deu pena,5,10,3.412
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,snr10,nenhum,agora tudo isso acabou e eu fico tendo idéias estranhas,agora tudo isso acabou eu tive que ter nidez e estrangei,7,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,snr10,wiener,agora tudo isso acabou e eu fico tendo idéias estranhas,agora tudo isso acabou e eu tive tenidez e está indo,5,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,snr10,perona_malik,agora tudo isso acabou e eu fico tendo idéias estranhas,agora tudo isso acabou eu fico tenidez e entende,4,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,snr10,nenhum,os intervalos dos telejornais são hoje mais valorizados,porque o que tem vazio estela que eu não sei como o que mais valorizou,14,8,3.35
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,snr10,wiener,os intervalos dos telejornais são hoje mais valorizados,e o que tem razo de telegonais são o que mais valorizados,9,8,3.35
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,snr10,perona_malik,os intervalos dos telejornais são hoje mais valorizados,porque o que tem vazio estela que eu não sei como o que mais valorizou,14,8,3.35
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,snr10,nenhum,a operação é feita através da emissão de notas fiscais frias,a operação é feita pra ver de missão de notos e feche feleis,8,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,snr10,wiener,a operação é feita através da emissão de notas fiscais frias,a operação é feita pra ver da imissão de notos especificos,6,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,snr10,perona_malik,a operação é feita através da emissão de notas fiscais frias,a operação é feita pra ver de missão de notos e feitas,7,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,snr10,nenhum,nas finalizações a holanda ganha de oitenta a sessenta e três,nas mesas são zonas ao lomba de dois mil e dezoito e a nossa sentitri,12,11,4.436
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,snr10,wiener,nas finalizações a holanda ganha de oitenta a sessenta e três,neste mês nós vamos ao lomba de dois mil e dezoito a sessenta e tira,11,11,4.436
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,snr10,perona_malik,nas finalizações a holanda ganha de oitenta a sessenta e três,nas mesas são zonas ou lombas ganha de ir tenta acrescentar e trecho,9,11,4.436
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,snr10,nenhum,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,vocabulares da sexualidade por repaletindo progressivamente a dez anos,5,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,snr10,wiener,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,volcam bolares da sexo à edade por repalessindo progressivamente a dez anos,8,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,snr10,perona_malik,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,vocabulários da sexualidade por repaletindo progressivamente a dez anos,5,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,snr10,nenhum,junto dela havia vinte e dois livros com a contabilidade do bicheiro,junto dela havia vinte e dois livros com a contabilidade do bichero,1,12,4.607
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,snr10,wiener,junto dela havia vinte e dois livros com a contabilidade do bicheiro,junto dela havia vinte e dois livros com a contabilidade do bichero,1,12,4.607
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,snr10,perona_malik,junto dela havia vinte e dois livros com a contabilidade do bicheiro,junto dela havia vinte e dois livros com a contabilidade do bichero,1,12,4.607
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,snr0,nenhum,o mercado fica de alto risco a curto prazo,,9,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,snr0,wiener,o mercado fica de alto risco a curto prazo,,9,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0065,LapsBM-F004,snr0,perona_malik,o mercado fica de alto risco a curto prazo,,9,9,3.924
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,snr0,nenhum,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,,12,12,4.607
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,snr0,wiener,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,,12,12,4.607
+lapsbm/test/LapsBM-F004/LapsBM_0080,LapsBM-F004,snr0,perona_malik,a infraero ainda não sabe em qual dos dois aeroportos alexandre embarcou,,12,12,4.607
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,snr0,nenhum,juro para capital de giro chega a cento e quarenta por cento ao ano,,14,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,snr0,wiener,juro para capital de giro chega a cento e quarenta por cento ao ano,,14,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0112,LapsBM-F006,snr0,perona_malik,juro para capital de giro chega a cento e quarenta por cento ao ano,,14,14,4.436
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,snr0,nenhum,chega a secretário da cultura com amplo apoio de intelectuais e artistas,,12,12,4.948
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,snr0,wiener,chega a secretário da cultura com amplo apoio de intelectuais e artistas,,12,12,4.948
+lapsbm/test/LapsBM-F006/LapsBM_0117,LapsBM-F006,snr0,perona_malik,chega a secretário da cultura com amplo apoio de intelectuais e artistas,,12,12,4.948
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,snr0,nenhum,o carro rodopiou na pista molhada e bateu no caminhão,,10,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,snr0,wiener,o carro rodopiou na pista molhada e bateu no caminhão,você tá né você queou é você queou é você não é você queou é você queou é você queou,20,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0228,LapsBM-F012,snr0,perona_malik,o carro rodopiou na pista molhada e bateu no caminhão,,10,10,3.924
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,snr0,nenhum,dois o piloto teve morte cerebral instantânea no momento do acidente,tô o que você gosta de mim lá tô o que você gosta de mim lá,15,11,4.436
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,snr0,wiener,dois o piloto teve morte cerebral instantânea no momento do acidente,então se vocês gostem do que vocês não gostem do brasil se vocês não gostem do brasil,16,11,4.436
+lapsbm/test/LapsBM-F012/LapsBM_0232,LapsBM-F012,snr0,perona_malik,dois o piloto teve morte cerebral instantânea no momento do acidente,estou muito gostando e não gostando dela,11,11,4.436
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,snr0,nenhum,esta espécie de ruído desaparece após uma noite de sono,eu tanto que eu não uso de uma falha eu tanto que eu não uso de uma falha eu tanto que eu não uso,22,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,snr0,wiener,esta espécie de ruído desaparece após uma noite de sono,mas não se esquece de dormir ou dizer que as áreas de fazer não se expandem,14,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0246,LapsBM-F013,snr0,perona_malik,esta espécie de ruído desaparece após uma noite de sono,e que é que você não usa em uma saída e que é que é que é que tem,18,10,5.29
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,snr0,nenhum,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,,10,10,5.46
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,snr0,wiener,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,,10,10,5.46
+lapsbm/test/LapsBM-F013/LapsBM_0252,LapsBM-F013,snr0,perona_malik,dos vinte e um prêmios quatorze foram para trabalhos jornalísticos,,10,10,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,snr0,nenhum,análise de viés psicológico da obra de guimarães rosa,,9,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,snr0,wiener,análise de viés psicológico da obra de guimarães rosa,o que é isso o que é isso o que é isso,12,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0266,LapsBM-F014,snr0,perona_malik,análise de viés psicológico da obra de guimarães rosa,,9,9,5.119
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,snr0,nenhum,hoje o índio só responde à constituição se solicitar sua emancipação,,11,11,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,snr0,wiener,hoje o índio só responde à constituição se solicitar sua emancipação,,11,11,5.46
+lapsbm/test/LapsBM-F014/LapsBM_0273,LapsBM-F014,snr0,perona_malik,hoje o índio só responde à constituição se solicitar sua emancipação,,11,11,5.46
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,snr0,nenhum,o sequestro de bens serviria para garantir o pagamento,,9,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,snr0,wiener,o sequestro de bens serviria para garantir o pagamento,o que é isso o que é isso o que é isso,10,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0286,LapsBM-F015,snr0,perona_malik,o sequestro de bens serviria para garantir o pagamento,,9,9,3.753
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,snr0,nenhum,xavier descarta a hipótese de o caixão ter sido violado,,10,10,4.777
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,snr0,wiener,xavier descarta a hipótese de o caixão ter sido violado,o que é o que é o que é o que é o que é,14,10,4.777
+lapsbm/test/LapsBM-F015/LapsBM_0294,LapsBM-F015,snr0,perona_malik,xavier descarta a hipótese de o caixão ter sido violado,,10,10,4.777
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,snr0,nenhum,eu sou fiel aos meus amigos e eles são fiéis a mim,,12,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,snr0,wiener,eu sou fiel aos meus amigos e eles são fiéis a mim,,12,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0371,LapsBM-F019,snr0,perona_malik,eu sou fiel aos meus amigos e eles são fiéis a mim,,12,12,5.801
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,snr0,nenhum,o jogo foi marcado pela disputa no meio campo,,9,9,4.436
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,snr0,wiener,o jogo foi marcado pela disputa no meio campo,o que é isso o que é isso o que é isso,11,9,4.436
+lapsbm/test/LapsBM-F019/LapsBM_0373,LapsBM-F019,snr0,perona_malik,o jogo foi marcado pela disputa no meio campo,,9,9,4.436
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,snr0,nenhum,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,,10,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,snr0,wiener,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,,10,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0489,LapsBM-F025,snr0,perona_malik,vinte bilhões de dólares já teriam retornado restando quarenta bilhões,,10,10,5.29
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,snr0,nenhum,o filme foi lançado pela a vez em mil novecentos e setenta,,12,12,5.46
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,snr0,wiener,o filme foi lançado pela a vez em mil novecentos e setenta,,12,12,5.46
+lapsbm/test/LapsBM-F025/LapsBM_0495,LapsBM-F025,snr0,perona_malik,o filme foi lançado pela a vez em mil novecentos e setenta,,12,12,5.46
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,snr0,nenhum,uma página inteira será dedicada a notas e curiosidades,o meu pai nem tira para a bitta da morte de curiosidade,11,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,snr0,wiener,uma página inteira será dedicada a notas e curiosidades,uma high mensera para abertizar a nossa curiosidade,7,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0505,LapsBM-F026,snr0,perona_malik,uma página inteira será dedicada a notas e curiosidades,uma caigna em tira para a bitta da morte do que ele está,11,9,4.266
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,snr0,nenhum,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,precim de dar um dock de quatro cinco º na minha palacinha no abierna,11,11,5.631
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,snr0,wiener,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,pra conduzar um vasco esteiro brasileiro na minha palacão na guerra,6,11,5.631
+lapsbm/test/LapsBM-F026/LapsBM_0515,LapsBM-F026,snr0,perona_malik,pretendo usar um barco pesqueiro brasileiro na minha instalação na bienal,preciso dar um back fechido e dragilido na minha palacinha no abierna,9,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,snr0,nenhum,ninguém menos que pelé classificou a colômbia como favorita ao título,,11,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,snr0,wiener,ninguém menos que pelé classificou a colômbia como favorita ao título,,11,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0682,LapsBM-F035,snr0,perona_malik,ninguém menos que pelé classificou a colômbia como favorita ao título,,11,11,5.631
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,snr0,nenhum,tem nove quartos e em um deles está o mordomo,,10,10,4.266
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,snr0,wiener,tem nove quartos e em um deles está o mordomo,,10,10,4.266
+lapsbm/test/LapsBM-F035/LapsBM_0691,LapsBM-F035,snr0,perona_malik,tem nove quartos e em um deles está o mordomo,,10,10,4.266
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,snr0,nenhum,pesquisa é uma coisa que muda a toda hora,,9,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,snr0,wiener,pesquisa é uma coisa que muda a toda hora,,9,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0001,LapsBM-M001,snr0,perona_malik,pesquisa é uma coisa que muda a toda hora,,9,9,3.753
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,snr0,nenhum,itamar tem razão de estar exultante como nunca desde que virou presidente,,12,12,5.801
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,snr0,wiener,itamar tem razão de estar exultante como nunca desde que virou presidente,,12,12,5.801
+lapsbm/test/LapsBM-M001/LapsBM_0011,LapsBM-M001,snr0,perona_malik,itamar tem razão de estar exultante como nunca desde que virou presidente,,12,12,5.801
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,snr0,nenhum,os problemas surgem nas importações diretas via catálogos por exemplo,,10,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,snr0,wiener,os problemas surgem nas importações diretas via catálogos por exemplo,,10,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0024,LapsBM-M002,snr0,perona_malik,os problemas surgem nas importações diretas via catálogos por exemplo,,10,10,5.119
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,snr0,nenhum,cinco frequentemente responde perguntas antes que elas sejam concluídas,,9,9,5.46
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,snr0,wiener,cinco frequentemente responde perguntas antes que elas sejam concluídas,,9,9,5.46
+lapsbm/test/LapsBM-M002/LapsBM_0030,LapsBM-M002,snr0,perona_malik,cinco frequentemente responde perguntas antes que elas sejam concluídas,,9,9,5.46
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,snr0,nenhum,não há desculpas para o mau jogo que fizemos contra a arábia,não há desculpeço para o mundo que se dê mexer não dá nada,9,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,snr0,wiener,não há desculpas para o mau jogo que fizemos contra a arábia,não há desculpeço para o longo dos que temos que encontrar a água,7,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0042,LapsBM-M003,snr0,perona_malik,não há desculpas para o mau jogo que fizemos contra a arábia,não há desculpeço para o mundo e o desculpeço para o nada,8,12,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,snr0,nenhum,em tóquio o dólar fechou cotado a noventa e oito ienes,em torto e doar aqui por passar a margem do ítimo,10,11,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,snr0,wiener,em tóquio o dólar fechou cotado a noventa e oito ienes,em solte e agora se você votar a novinho em dois mil e dezoito,12,11,4.948
+lapsbm/test/LapsBM-M003/LapsBM_0044,LapsBM-M003,snr0,perona_malik,em tóquio o dólar fechou cotado a noventa e oito ienes,em torno o dor é difícil passar mas não é difícil ir,10,11,4.948
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,snr0,nenhum,temos de melhorar a qualidade do ensino especialmente na escola pública,,11,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,snr0,wiener,temos de melhorar a qualidade do ensino especialmente na escola pública,,11,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0087,LapsBM-M005,snr0,perona_malik,temos de melhorar a qualidade do ensino especialmente na escola pública,,11,11,4.777
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,snr0,nenhum,tenho muita vontade de aprender mas baixo poder aquisitivo,,9,9,3.924
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,snr0,wiener,tenho muita vontade de aprender mas baixo poder aquisitivo,,9,9,3.924
+lapsbm/test/LapsBM-M005/LapsBM_0088,LapsBM-M005,snr0,perona_malik,tenho muita vontade de aprender mas baixo poder aquisitivo,,9,9,3.924
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,snr0,nenhum,no inverno esta variação é menor mas ainda existe,mundo eu sou a barração eu sou a barração,9,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,snr0,wiener,no inverno esta variação é menor mas ainda existe,pois é mas cada vez mais mais mais mais mais mais mais mais,13,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0124,LapsBM-M007,snr0,perona_malik,no inverno esta variação é menor mas ainda existe,muito obrigado por favor ser muito obrigado por favor,9,9,3.753
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,snr0,nenhum,o cruzeiro real continua valendo até o dia quinze de julho,e tudo isso é a última vez que a gente está aqui aqui,13,11,4.436
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,snr0,wiener,o cruzeiro real continua valendo até o dia quinze de julho,e hoje não é a pessoa que além de sair de sair de sair de sair,15,11,4.436
+lapsbm/test/LapsBM-M007/LapsBM_0138,LapsBM-M007,snr0,perona_malik,o cruzeiro real continua valendo até o dia quinze de julho,e doido é a última vez que a gente fez o que ele tinha,14,11,4.436
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,snr0,nenhum,não deixe de entrar na galeria pacífico recém restaurada e reformada,e aí você não está né que eu vou ir atrás de mim e aí você não está eu vou ir atrás de mim,22,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,snr0,wiener,não deixe de entrar na galeria pacífico recém restaurada e reformada,e o que isso não é nada para ver o meu praço isso não é nada para ver o meu praço isso não é nada para ver o meu praço,29,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0146,LapsBM-M008,snr0,perona_malik,não deixe de entrar na galeria pacífico recém restaurada e reformada,e aí você tem o que tá né eu tenho o meu bicho eu tenho o que eu vou fazer eu tenho o que eu vou fazer,27,11,5.46
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,snr0,nenhum,a classe média paulistana vai às lojas neste natal com mais apetite,a classe negra foi um esquino vai a sua louca e a classe negra,11,12,5.29
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,snr0,wiener,a classe média paulistana vai às lojas neste natal com mais apetite,a classe negra foi desquina viola e forza e desquita ou seja desquita,11,12,5.29
+lapsbm/test/LapsBM-M008/LapsBM_0160,LapsBM-M008,snr0,perona_malik,a classe média paulistana vai às lojas neste natal com mais apetite,ai o nosso nome é capone o nosso nome é vaya pódez o nosso nome é capone,17,12,5.29
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,snr0,nenhum,parece o covas beijando o covas ou a erundina beijando a erundina,agora estou por uma desculma de uma desculma de uma desculma,12,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,snr0,wiener,parece o covas beijando o covas ou a erundina beijando a erundina,e aí se fala que eles não se formam que não estão adiciando eles não vão adiciando,17,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0169,LapsBM-M009,snr0,perona_malik,parece o covas beijando o covas ou a erundina beijando a erundina,nós acoiamos esses comandos que estão lendo aqui e eu estou lendo aqui,13,12,5.119
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,snr0,nenhum,o governo do rio não terá representante no encontro,e jogando do juno que eraja que a gente já tinha ido,11,9,4.777
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,snr0,wiener,o governo do rio não terá representante no encontro,se jogando você junha na hora que a gente está cansada,11,9,4.777
+lapsbm/test/LapsBM-M009/LapsBM_0178,LapsBM-M009,snr0,perona_malik,o governo do rio não terá representante no encontro,e o giozinho é o puhino e o giozinho é o puhino e o giozinho é o giozinho,17,9,4.777
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,snr0,nenhum,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,estou bem muito contado com o gdx e o gdx estou muito contado com o gdx estou muito contado com o gdx,22,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,snr0,wiener,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,pra ver esse contato em direitos você vai ser um trato em direitos um trato em direitos um trato em direitos um trato em saúde um trato em saúde,29,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0184,LapsBM-M010,snr0,perona_malik,problemas encontrados nos diversos subprocessos organizacionais possuem causas próprias,o que é isso o que é isso o que é isso o que é isso,16,9,5.631
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,snr0,nenhum,é um filme com um impacto vigoroso sobre a vida nacional,eu que eu me comi para te ouvido ou no que eu me pedo aqui da nossa mão,18,11,3.924
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,snr0,wiener,é um filme com um impacto vigoroso sobre a vida nacional,é um que um e com um patro burou um que não é vida assim,10,11,3.924
+lapsbm/test/LapsBM-M010/LapsBM_0193,LapsBM-M010,snr0,perona_malik,é um filme com um impacto vigoroso sobre a vida nacional,eu eu não vou me passar tudo não vou me ajudar,11,11,3.924
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,snr0,nenhum,exibida em duas ou três partes renderia muito mais,eu não sei o que eu não sei o que eu não sei o que eu não sei,18,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,snr0,wiener,exibida em duas ou três partes renderia muito mais,as if you will never think about it and they will never think about it,15,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0209,LapsBM-M011,snr0,perona_malik,exibida em duas ou três partes renderia muito mais,eu não sei o que eu não sei o que eu não sei o que eu não sei,18,9,4.266
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,snr0,nenhum,no passeio ciro também pôde ver a impopularidade do colega argentino,e o passeio e o que também pode você e o que vai você comer,13,11,5.972
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,snr0,wiener,no passeio ciro também pôde ver a impopularidade do colega argentino,e o passeio e o que também pode fazer é um pouco mais idade de colher a gente,16,11,5.972
+lapsbm/test/LapsBM-M011/LapsBM_0216,LapsBM-M011,snr0,perona_malik,no passeio ciro também pôde ver a impopularidade do colega argentino,eu passei o ídito para mim sobre o ídito e o ídito do ídito do ídito do ídito,17,11,5.972
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,snr0,nenhum,a melhoria da qualidade não interessa só a técnicos ou empresários,,11,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,snr0,wiener,a melhoria da qualidade não interessa só a técnicos ou empresários,mas não é o rio da senhora da senhora da senhora da senhora da senhora,14,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0313,LapsBM-M016,snr0,perona_malik,a melhoria da qualidade não interessa só a técnicos ou empresários,,11,11,5.29
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,snr0,nenhum,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,,12,12,5.119
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,snr0,wiener,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,o que é isso o que é isso o que é isso,12,12,5.119
+lapsbm/test/LapsBM-M016/LapsBM_0315,LapsBM-M016,snr0,perona_malik,estou muito cheio de pepinos para ficar tratando dos pepinos dos outros,,12,12,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,snr0,nenhum,o problema é que a inflação demora um pouco para cair,,11,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,snr0,wiener,o problema é que a inflação demora um pouco para cair,,11,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0321,LapsBM-M017,snr0,perona_malik,o problema é que a inflação demora um pouco para cair,,11,11,5.119
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,snr0,nenhum,o importante é que tenho entusiasmo para fazer as coisas,,10,10,4.095
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,snr0,wiener,o importante é que tenho entusiasmo para fazer as coisas,o que é isso o que é isso o que é isso,9,10,4.095
+lapsbm/test/LapsBM-M017/LapsBM_0329,LapsBM-M017,snr0,perona_malik,o importante é que tenho entusiasmo para fazer as coisas,,10,10,4.095
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,snr0,nenhum,a maternidade agora está capacitada para realizar cento e cinqüenta partos,,11,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,snr0,wiener,a maternidade agora está capacitada para realizar cento e cinqüenta partos,,11,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0342,LapsBM-M018,snr0,perona_malik,a maternidade agora está capacitada para realizar cento e cinqüenta partos,,11,11,5.631
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,snr0,nenhum,basta uma vitória para o time se classificar para as semifinais,,11,11,4.607
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,snr0,wiener,basta uma vitória para o time se classificar para as semifinais,,11,11,4.607
+lapsbm/test/LapsBM-M018/LapsBM_0355,LapsBM-M018,snr0,perona_malik,basta uma vitória para o time se classificar para as semifinais,,11,11,4.607
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,snr0,nenhum,quem sair por último feche a porta e apague a luz,então eu te sujo então eu te sujo então eu te sujo,12,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,snr0,wiener,quem sair por último feche a porta e apague a luz,isso é o que o que vai ser a qual você vai fazer,13,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0381,LapsBM-M020,snr0,perona_malik,quem sair por último feche a porta e apague a luz,eu não sei o que isso está achando lá,11,11,4.266
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,snr0,nenhum,foi definido o campeonato estadual que começa no dia trinta,,10,10,4.777
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,snr0,wiener,foi definido o campeonato estadual que começa no dia trinta,você vai ter que diminuir o que você não acha que você não acha que você não acha que você não acha,20,10,4.777
+lapsbm/test/LapsBM-M020/LapsBM_0386,LapsBM-M020,snr0,perona_malik,foi definido o campeonato estadual que começa no dia trinta,,10,10,4.777
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,snr0,nenhum,estava muito calor e não soubemos dosar a energia,tava muito pra mim não se gêne se não se gêne se,10,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,snr0,wiener,estava muito calor e não soubemos dosar a energia,então vamos para o nosso dentro da área do mundo,10,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0414,LapsBM-M021,snr0,perona_malik,estava muito calor e não soubemos dosar a energia,estava muito forwardo e não seguindo tudo bem,5,9,4.607
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,snr0,nenhum,glória funaro já colocou sua coleção de outono inverno nas prateleiras,nore o cenário e a polícia e a polícia do cenário do cenário do cenário,15,11,5.972
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,snr0,wiener,glória funaro já colocou sua coleção de outono inverno nas prateleiras,lói ensinar se afirmar se afirmar se afirmar se afirmar se afirmar,12,11,5.972
+lapsbm/test/LapsBM-M021/LapsBM_0416,LapsBM-M021,snr0,perona_malik,glória funaro já colocou sua coleção de outono inverno nas prateleiras,morda e cinalde e a cinalde e a cinalde e a cinalde,12,11,5.972
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,snr0,nenhum,a grande virtude da nação brasileira é a tolerância,eu penso que isso vai dar uma chão que eu não era feliz,13,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,snr0,wiener,a grande virtude da nação brasileira é a tolerância,a grande discida é sempre que lê a cê lê a cê lê a cê lê a cê,15,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0423,LapsBM-M022,snr0,perona_malik,a grande virtude da nação brasileira é a tolerância,é bem difícil estar achando que eu não era feliz,10,9,3.071
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,snr0,nenhum,a permanecer a atual situação será o brasil que não vingará,agora vão ajudar a deus vou começar a fazer as as coisas,11,11,4.266
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,snr0,wiener,a permanecer a atual situação será o brasil que não vingará,até uma missiração de são paulo isso não é de novo,11,11,4.266
+lapsbm/test/LapsBM-M022/LapsBM_0435,LapsBM-M022,snr0,perona_malik,a permanecer a atual situação será o brasil que não vingará,a quem manda isso é só se esquecer é só se esquecer é só se esquecer,15,11,4.266
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,snr0,nenhum,a apuração passou a ser feita antes do sorteio,,9,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,snr0,wiener,a apuração passou a ser feita antes do sorteio,,9,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0454,LapsBM-M023,snr0,perona_malik,a apuração passou a ser feita antes do sorteio,,9,9,2.717
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,snr0,nenhum,como vocês puderam ver na copa faltam atacantes na itália,,10,10,3.753
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,snr0,wiener,como vocês puderam ver na copa faltam atacantes na itália,,10,10,3.753
+lapsbm/test/LapsBM-M023/LapsBM_0458,LapsBM-M023,snr0,perona_malik,como vocês puderam ver na copa faltam atacantes na itália,,10,10,3.753
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,snr0,nenhum,ser moderno é ser profissional e não inventar desculpas,,9,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,snr0,wiener,ser moderno é ser profissional e não inventar desculpas,,9,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0469,LapsBM-M024,snr0,perona_malik,ser moderno é ser profissional e não inventar desculpas,,9,9,5.631
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,snr0,nenhum,as cadernetas rendem vinte e oito por cento no dia quinze,,11,11,5.972
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,snr0,wiener,as cadernetas rendem vinte e oito por cento no dia quinze,,11,11,5.972
+lapsbm/test/LapsBM-M024/LapsBM_0473,LapsBM-M024,snr0,perona_malik,as cadernetas rendem vinte e oito por cento no dia quinze,,11,11,5.972
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,snr0,nenhum,a medida valeria após trinta dias desde a sua aprovação,a medida que a medida a parte da medida é bem confrana,10,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,snr0,wiener,a medida valeria após trinta dias desde a sua aprovação,a medida fala de minha após minha tradiência e a lista pra vocês,9,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0531,LapsBM-M027,snr0,perona_malik,a medida valeria após trinta dias desde a sua aprovação,a medida que a medida era a parte do dia foi muito procrastinante,11,10,4.777
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,snr0,nenhum,está sendo feito um investimento de dois bilhões de dólares,só que é o preto que isso não é o estudo que eu não vou dar,16,10,4.266
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,snr0,wiener,está sendo feito um investimento de dois bilhões de dólares,faça no feito e vestuência do burro e dança na hora,10,10,4.266
+lapsbm/test/LapsBM-M027/LapsBM_0540,LapsBM-M027,snr0,perona_malik,está sendo feito um investimento de dois bilhões de dólares,páquer o peito e descemelhante do outro dia um dia um dia,12,10,4.266
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,snr0,nenhum,você foi sem calcinha para o camarote do presidente no sambódromo,o que foi isso o que não pode chamar é o que o que o o o o o o o o o o o,23,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,snr0,wiener,você foi sem calcinha para o camarote do presidente no sambódromo,você pode ser impossível se não vai chamar o actually do efeito efeito de sandôdio,12,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0556,LapsBM-M028,snr0,perona_malik,você foi sem calcinha para o camarote do presidente no sambódromo,ou seja foi tensão de uma palha famada ou seja foi tensão de uma palha famada ou seja foi tensão de uma famada,22,11,4.095
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,snr0,nenhum,o advogado do filósofo mário simas vai recorrer da decisão,eu já vou dar isso que eu vou tomar de tino eu vou fazer coisas que eu não vou,19,10,3.753
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,snr0,wiener,o advogado do filósofo mário simas vai recorrer da decisão,eu acho que o lugar é que o lugar é que o mais destino é que o resto é que isso é que isso é que isso é,27,10,3.753
+lapsbm/test/LapsBM-M028/LapsBM_0558,LapsBM-M028,snr0,perona_malik,o advogado do filósofo mário simas vai recorrer da decisão,que os meu galhos que mudem aqui mas vai ter poder derade,11,10,3.753
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,snr0,nenhum,a câmara teria quinhentas e cinqüenta e cinco cadeiras,as câmaras teria quinhentos e quinhentos e quinhentos caderes,6,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,snr0,wiener,a câmara teria quinhentas e cinqüenta e cinco cadeiras,a camara teria quinhentos e cinquenta e cinquenta e cinquenta cadê las,8,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0575,LapsBM-M029,snr0,perona_malik,a câmara teria quinhentas e cinqüenta e cinco cadeiras,acomo a teria quinhentos e quinhentos e cinco cadê se,6,9,4.266
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,snr0,nenhum,o melhor resultado foi registrado na região metropolitana de salvador,o melhor resultado é que para a gente para a gente para a gente para a gente para a gente para a gente,20,10,4.436
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,snr0,wiener,o melhor resultado foi registrado na região metropolitana de salvador,ele é o resultado para registrar na região nessa poeta e tal adoro,10,10,4.436
+lapsbm/test/LapsBM-M029/LapsBM_0579,LapsBM-M029,snr0,perona_malik,o melhor resultado foi registrado na região metropolitana de salvador,o meu deus é educado para gente para a gente e um nesta polícia na escola de deus,16,10,4.436
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,snr0,nenhum,foi um grande desgaste porque ela ficou dois anos doente,e um brilho de baixo é o que o brilho vai fazer,11,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,snr0,wiener,foi um grande desgaste porque ela ficou dois anos doente,é um grande impacto que se fosse com o brilhão no brasil,10,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0595,LapsBM-M030,snr0,perona_malik,foi um grande desgaste porque ela ficou dois anos doente,e em breve que está eu quero ver o meu nome,11,10,3.753
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,snr0,nenhum,acho que a gastrite foi uma descarga da parte psicológica no corpo,e a vez que o instrumento está eu la faço falou isso,12,12,4.095
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,snr0,wiener,acho que a gastrite foi uma descarga da parte psicológica no corpo,se a garquista humanitária da pastura vou colocar isso no fundo,10,12,4.095
+lapsbm/test/LapsBM-M030/LapsBM_0596,LapsBM-M030,snr0,perona_malik,acho que a gastrite foi uma descarga da parte psicológica no corpo,e a vez que o instrumento está eu la faço falou isso,12,12,4.095
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,snr0,nenhum,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,um show de ensinar o de herisado de cilinho de cilinho de cilinho de cilinho de cilinho de cilinho de cilinho por favor e para ser terminador,27,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,snr0,wiener,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,a gente não tem sonado a herisar e ser intercintista mas a borgasones para ser polínea,15,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0619,LapsBM-M031,snr0,perona_malik,anteontem astronautas realizaram experiências científicas a bordo do ônibus espacial columbia,em chuo que ensinar o da herisade se nem que se conquista da borde do homem o seu pulmido,18,11,5.801
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,snr0,nenhum,os belgas reclamaram mas o juiz não deu o pênalti,e de até que tem o mar a gente não tem o que tem,11,10,3.412
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,snr0,wiener,os belgas reclamaram mas o juiz não deu o pênalti,e o que é que tem a mar o mais que não tem o que é que não tem a mar,18,10,3.412
+lapsbm/test/LapsBM-M031/LapsBM_0620,LapsBM-M031,snr0,perona_malik,os belgas reclamaram mas o juiz não deu o pênalti,e se a gente tem um mar a gente não tem o que tem,12,10,3.412
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,snr0,nenhum,agora tudo isso acabou e eu fico tendo idéias estranhas,agora aqui tem luta acabou e luta tem luta,8,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,snr0,wiener,agora tudo isso acabou e eu fico tendo idéias estranhas,agora a sua vida acabou e não se esqueçam de despreter,8,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0625,LapsBM-M032,snr0,perona_malik,agora tudo isso acabou e eu fico tendo idéias estranhas,agora aqui fica boa e o outro aqui aqui e o outro aqui,11,10,4.436
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,snr0,nenhum,os intervalos dos telejornais são hoje mais valorizados,o que tem wow o que tem mais dois mais três mais três mais três,14,8,3.35
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,snr0,wiener,os intervalos dos telejornais são hoje mais valorizados,se você é vazio se você é mais tarde você é mais tarde,12,8,3.35
+lapsbm/test/LapsBM-M032/LapsBM_0632,LapsBM-M032,snr0,perona_malik,os intervalos dos telejornais são hoje mais valorizados,e o que tem mais o que tem mais o que tem mais o que tem mais,16,8,3.35
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,snr0,nenhum,a operação é feita através da emissão de notas fiscais frias,aperacar que tem pra ver o que não tem pra ver o que não tem pra ver o que não tem pra ver,23,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,snr0,wiener,a operação é feita através da emissão de notas fiscais frias,alta a restar eita para a reta e a restar e a restar e a restar,15,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0646,LapsBM-M033,snr0,perona_malik,a operação é feita através da emissão de notas fiscais frias,até o que eu perguntei o que eu perguntei o que eu perguntei,13,11,3.753
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,snr0,nenhum,nas finalizações a holanda ganha de oitenta a sessenta e três,na primeira torção do lomboginho ele tenta apertar com o chuteiro,11,11,4.436
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,snr0,wiener,nas finalizações a holanda ganha de oitenta a sessenta e três,nas mesas nós vamos ao longo da january de dezoito até cento e oitenta e três,12,11,4.436
+lapsbm/test/LapsBM-M033/LapsBM_0658,LapsBM-M033,snr0,perona_malik,nas finalizações a holanda ganha de oitenta a sessenta e três,na frente o outro outro ao longo da januíja e ele tem que apertar com o chuteiro,16,11,4.436
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,snr0,nenhum,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,vocabular e cástia de idade pois é a paletino de produtos e valenta dez anos,13,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,snr0,wiener,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,vocabulário e caixa de solididade por reta lecinho no so ensivamente a dez anos,12,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0667,LapsBM-M034,snr0,perona_malik,o vocabulário da sexualidade foi reaparecendo progressivamente há dez anos,no capulário e com a sexualidade isso é a paletínio de produtos e da única vez,15,10,4.948
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,snr0,nenhum,junto dela havia vinte e dois livros com a contabilidade do bicheiro,junto da álvia guit dois dias de contanta habilidade do guit pé,10,12,4.607
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,snr0,wiener,junto dela havia vinte e dois livros com a contabilidade do bicheiro,jumpe dela às vezes dois mil e fantasabilidades do guteiro,9,12,4.607
+lapsbm/test/LapsBM-M034/LapsBM_0668,LapsBM-M034,snr0,perona_malik,junto dela havia vinte e dois livros com a contabilidade do bicheiro,junto dela a viajo e hoje lhes contanto a habilidade do gistê,7,12,4.607

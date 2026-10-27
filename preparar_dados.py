@@ -85,6 +85,7 @@ def main():
     ap.add_argument("--dataset", nargs="+", required=True, choices=sorted(DATASETS))
     ap.add_argument("--max-locutores", type=int, default=None, help="máx. de locutores por divisão (sorteados)")
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--splits", nargs="+", default=None, help="so estas divisoes (ex.: train dev)")
     a = ap.parse_args()
 
     from huggingface_hub import HfApi, hf_hub_download
@@ -95,6 +96,8 @@ def main():
         print(f"\n### {repo}")
         tars = sorted(f for f in HfApi().list_repo_files(repo, repo_type="dataset") if f.endswith(".tar.gz"))
         alvo = [(f, *divisao_e_locutor(ds, f)) for f in tars]
+        if a.splits:
+            alvo = [x for x in alvo if x[1] in a.splits]
         if a.max_locutores:
             rng = random.Random(a.seed)
             por_div = {}
@@ -112,7 +115,10 @@ def main():
             linhas += l
             sem_texto += s
         df = pd.DataFrame(linhas)
-        df.to_csv(RAIZ / "manifests" / f"{ds}.csv", index=False, encoding="utf-8")
+        dest = RAIZ / "manifests" / f"{ds}.csv"
+        if dest.exists():
+            df = pd.concat([pd.read_csv(dest), df], ignore_index=True).drop_duplicates("id", keep="last")
+        df.to_csv(dest, index=False, encoding="utf-8")
         print(f"\n{ds}: {len(df)} falas salvas em data/manifests/{ds}.csv (áudios sem .txt ignorados: {sem_texto})")
         print(resumo(df).to_string())
 
