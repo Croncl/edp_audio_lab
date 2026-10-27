@@ -26,7 +26,7 @@ import soundfile as sf
 import edp_lab as L
 from textutil import normalizar_texto
 
-FRENTES = ["nenhum", "perona_malik", "wiener", "wiener+pm", "pm_seletivo", "wiener+pm_sel"]
+FRENTES = ["nenhum", "perona_malik", "wiener", "wiener+pm", "pm_seletivo", "wiener+pm_sel", "unet", "unet+pm_sel"]
 KAPPA, DT, N_ITER, N_ITER_SEL = 10.0, 0.2, 3, 10
 CFG = {"tipo": "branco", "pool": []}   # pool: (locutor, audio) p/ babble
 
@@ -44,6 +44,13 @@ def aplicar_frente(y, frente):
         r = L.aplicar_edp(y, "perona_malik", pre="wiener", kappa=KAPPA, dt=DT, n_iter=N_ITER)
     elif frente == "pm_seletivo":
         r = L.aplicar_edp(y, "perona_malik", seletivo=True, kappa=KAPPA, dt=DT, n_iter=N_ITER_SEL)
+    elif frente in ("unet", "unet+pm_sel"):
+        from modelo import realcar
+        yu = realcar(CFG["unet"], y)
+        if frente == "unet":
+            r = {"y_out": yu}
+        else:
+            r = L.aplicar_edp(yu, "perona_malik", seletivo=True, kappa=KAPPA, dt=DT, n_iter=N_ITER_SEL)
     elif frente == "wiener+pm_sel":
         r = L.aplicar_edp(y, "perona_malik", pre="wiener", seletivo=True, kappa=KAPPA, dt=DT, n_iter=N_ITER_SEL)
     else:
@@ -183,6 +190,7 @@ def main():
     ap.add_argument("--beam", type=int, default=5)
     ap.add_argument("--threads", type=int, default=max(4, (os.cpu_count() or 8) // 2))
     ap.add_argument("--device", default="auto", choices=["auto", "cuda", "cpu"])
+    ap.add_argument("--unet", default="modelos/unet_v1/best.pt", help="modelo treinado (frentes unet*)")
     ap.add_argument("--ruido", default="branco", choices=["branco", "rosa", "marrom", "babble"])
     ap.add_argument("--saida", default="resultados_asr")
     a = ap.parse_args()
@@ -199,6 +207,12 @@ def main():
 
     falas = escolher_falas(a.manifesto, a.split, a.por_locutor)
     CFG["tipo"] = a.ruido
+    if any(f.startswith("unet") for f in a.frentes):
+        import sys as _sys
+        from pathlib import Path as _P
+        _sys.path.insert(0, str(_P(__file__).resolve().parent / "treino"))
+        from modelo import carregar
+        CFG["unet"] = carregar(a.unet, "cpu")[0]
     if a.ruido == "babble":
         CFG["pool"] = [(r.speaker, (lambda x: x - x.mean())(sf.read(r.wav, dtype="float32")[0])) for r in falas.itertuples()]
     print(f"{len(falas)} falas ({falas.speaker.nunique()} locutores) | modelo {a.modelo} | frentes {a.frentes} | SNRs {a.snrs}")
