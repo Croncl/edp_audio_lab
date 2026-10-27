@@ -41,7 +41,7 @@ def ler_trecho(caminho, n, rng, aleatorio=True):
     y, _ = sf.read(caminho, start=ini, frames=n, dtype="float32", always_2d=False)
     if len(y) < n:
         y = np.pad(y, (0, n - len(y)))
-    return y
+    return y - y.mean()          # remove DC (alguns datasets tem DC grande)
 
 
 class DadosRuido(Dataset):
