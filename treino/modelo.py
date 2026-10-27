@@ -84,6 +84,7 @@ def realcar(modelo, y, device="cpu"):
     modelo.eval()
     janela = torch.hann_window(N_FFT, device=device)
     y = np.asarray(y, dtype=np.float32)
+    y = y - y.mean()                 # remove DC (inaudível; o treino usa sinal sem DC)
     g = 0.9 / (np.max(np.abs(y)) + 1e-9)
     yt = torch.from_numpy(y * g).to(device)[None]
     X = stft(yt, janela)

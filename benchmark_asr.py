@@ -86,6 +86,7 @@ def rodar(asr, falas, frentes, snrs, log=print):
     for ci, cond in enumerate(condicoes):
         for i, f in falas.iterrows():
             y, sr = sf.read(f.wav, dtype="float32")
+            y = y - y.mean()   # remove DC
             assert sr == L.SR, f"{f.wav}: esperado {L.SR} Hz, veio {sr}"
             if cond != "limpo":
                 y = L.adicionar_ruido_tipo(y, float(cond[3:]), CFG["tipo"], seed=1000 + i, pool=[p for sp, p in CFG["pool"] if sp != f.speaker])   # mesmo ruído p/ todas as frentes
@@ -199,7 +200,7 @@ def main():
     falas = escolher_falas(a.manifesto, a.split, a.por_locutor)
     CFG["tipo"] = a.ruido
     if a.ruido == "babble":
-        CFG["pool"] = [(r.speaker, sf.read(r.wav, dtype="float32")[0]) for r in falas.itertuples()]
+        CFG["pool"] = [(r.speaker, (lambda x: x - x.mean())(sf.read(r.wav, dtype="float32")[0])) for r in falas.itertuples()]
     print(f"{len(falas)} falas ({falas.speaker.nunique()} locutores) | modelo {a.modelo} | frentes {a.frentes} | SNRs {a.snrs}")
     df = rodar(asr, falas, a.frentes, [int(s) if float(s).is_integer() else s for s in a.snrs])
 

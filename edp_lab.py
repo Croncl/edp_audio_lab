@@ -661,68 +661,6 @@ def adicionar_ruido_tipo(y, snr_alvo_db, tipo="branco", seed=0, pool=None):
     """Soma ruido do `tipo` com SNR = snr_alvo_db (potencia media)."""
     rng = np.random.default_rng(seed)
     r = gerar_ruido(len(y), tipo, rng, pool)
-    p_alvo = np.mean(y.astype(np.float64) ** 2) / (10 ** (snr_alvo_db / 10))
-    r = r * np.sqrt(p_alvo / (np.mean(r ** 2) + 1e-20))
-    return (y + r).astype(np.float32)
-
-
-def gerar_ruido(n, tipo, rng, pool=None, k=6):
-    """branco | rosa (1/f) | marrom (1/f^2) | babble (soma de k falas de `pool`, lista de arrays)."""
-    if tipo == "branco":
-        return rng.standard_normal(n)
-    if tipo in ("rosa", "marrom"):
-        X = np.fft.rfft(rng.standard_normal(n))
-        f = np.arange(len(X), dtype=np.float64)
-        f[0] = 1.0
-        return np.fft.irfft(X / f ** (0.5 if tipo == "rosa" else 1.0), n)
-    if tipo == "babble":
-        if not pool:
-            raise ValueError("babble precisa de `pool` com audios de outros locutores")
-        r = np.zeros(n)
-        for j in rng.choice(len(pool), size=min(k, len(pool)), replace=False):
-            a = np.asarray(pool[j], dtype=np.float64)
-            a = np.tile(a, int(np.ceil(n / len(a)) + 1))
-            ini = int(rng.integers(0, len(a) - n))
-            r += a[ini:ini + n]
-        return r
-    raise ValueError(f"tipo de ruido desconhecido: {tipo}")
-
-
-def adicionar_ruido_tipo(y, snr_alvo_db, tipo="branco", seed=0, pool=None):
-    """Soma ruido do `tipo` com SNR = snr_alvo_db (potencia media)."""
-    rng = np.random.default_rng(seed)
-    r = gerar_ruido(len(y), tipo, rng, pool)
-    p_alvo = np.mean(y.astype(np.float64) ** 2) / (10 ** (snr_alvo_db / 10))
-    r = r * np.sqrt(p_alvo / (np.mean(r ** 2) + 1e-20))
-    return (y + r).astype(np.float32)
-
-
-def gerar_ruido(n, tipo, rng, pool=None, k=6):
-    """branco | rosa (1/f) | marrom (1/f^2) | babble (soma de k falas de `pool`, lista de arrays)."""
-    if tipo == "branco":
-        return rng.standard_normal(n)
-    if tipo in ("rosa", "marrom"):
-        X = np.fft.rfft(rng.standard_normal(n))
-        f = np.arange(len(X), dtype=np.float64)
-        f[0] = 1.0
-        return np.fft.irfft(X / f ** (0.5 if tipo == "rosa" else 1.0), n)
-    if tipo == "babble":
-        if not pool:
-            raise ValueError("babble precisa de `pool` com audios de outros locutores")
-        r = np.zeros(n)
-        for j in rng.choice(len(pool), size=min(k, len(pool)), replace=False):
-            a = np.asarray(pool[j], dtype=np.float64)
-            a = np.tile(a, int(np.ceil(n / len(a)) + 1))
-            ini = int(rng.integers(0, len(a) - n))
-            r += a[ini:ini + n]
-        return r
-    raise ValueError(f"tipo de ruido desconhecido: {tipo}")
-
-
-def adicionar_ruido_tipo(y, snr_alvo_db, tipo="branco", seed=0, pool=None):
-    """Soma ruido do `tipo` com SNR = snr_alvo_db (potencia media)."""
-    rng = np.random.default_rng(seed)
-    r = gerar_ruido(len(y), tipo, rng, pool)
-    p_alvo = np.mean(y.astype(np.float64) ** 2) / (10 ** (snr_alvo_db / 10))
+    p_alvo = np.var(y.astype(np.float64)) / (10 ** (snr_alvo_db / 10))   # potencia SEM o DC
     r = r * np.sqrt(p_alvo / (np.mean(r ** 2) + 1e-20))
     return (y + r).astype(np.float32)
