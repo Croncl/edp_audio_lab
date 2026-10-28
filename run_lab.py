@@ -5,7 +5,6 @@ Exemplos:
     python run_lab.py --sintetico                      # teste de fumaça, sem internet
     python run_lab.py --audio meu_audio.wav            # arquivo seu
     python run_lab.py --pasta meus_audios --n 5 --benchmark   # pasta local, offline, + benchmark
-    python run_lab.py --hf falabrasil/mf --n 3         # (opcional, internet) baixa 3 áudios do Hugging Face
 
 Métodos comparados (todos aplicados ao MESMO áudio ruidoso):
     calor, perona_malik     EDPs puras no espectrograma
@@ -85,9 +84,8 @@ def main():
     g = ap.add_mutually_exclusive_group()
     g.add_argument("--audio", nargs="+", help="um ou mais arquivos de áudio")
     g.add_argument("--pasta", help="pasta local com áudios (busca .wav/.flac/.mp3/.ogg recursivamente) — 100%% offline")
-    g.add_argument("--hf", help="(opcional, precisa de internet) repo de dataset no Hugging Face, ex.: falabrasil/mf")
     g.add_argument("--sintetico", action="store_true", help="sinal sintético (só para testar o código)")
-    ap.add_argument("--n", type=int, default=3, help="quantos áudios usar da pasta / baixar do HF")
+    ap.add_argument("--n", type=int, default=3, help="quantos áudios usar da pasta")
     ap.add_argument("--duracao", type=float, default=4.0, help="segundos de cada áudio")
     ap.add_argument("--snr", type=float, default=10.0, help="SNR do ruído adicionado (dB)")
     ap.add_argument("--iter", type=int, default=3, help="iterações de calor / Perona-Malik / wiener+pm")
@@ -96,14 +94,10 @@ def main():
     ap.add_argument("--kappa", type=float, default=10.0)
     ap.add_argument("--dt", type=float, default=0.2)
     ap.add_argument("--benchmark", action="store_true")
-    ap.add_argument("--listar-hf", metavar="REPO", help="só lista os arquivos de um dataset HF e sai")
     ap.add_argument("--saida", default="outputs")
     a = ap.parse_args()
-    if a.listar_hf:
-        L.listar_repo_hf(a.listar_hf)
-        return
-    if not (a.audio or a.pasta or a.hf or a.sintetico):
-        ap.error("informe --audio, --pasta, --hf ou --sintetico")
+    if not (a.audio or a.pasta or a.sintetico):
+        ap.error("informe --audio, --pasta ou --sintetico")
 
     saida = Path(a.saida)
     if a.sintetico:
@@ -111,11 +105,9 @@ def main():
     else:
         if a.audio:
             caminhos = a.audio
-        elif a.pasta:
+        else:
             caminhos = L.listar_audios_pasta(a.pasta, n=a.n)
             print("Áudios encontrados:", *caminhos, sep="\n  ")
-        else:
-            caminhos = L.baixar_amostras_hf(a.hf, n=a.n)
         ys = {Path(c).stem: L.carregar_audio(c, duracao=a.duracao) for c in caminhos}
 
     nomes = list(ys)

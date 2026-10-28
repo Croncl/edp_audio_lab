@@ -44,11 +44,3 @@ def normalizar_texto(t):
     t = re.sub(r"[^\w\s]", " ", t)                           # tira pontuação
     t = t.replace("_", " ")
     return re.sub(r"\s+", " ", t).strip()
-
-
-def wer_cer(refs, hips):
-    """WER e CER (%) sobre listas de textos JÁ normalizados. Usa jiwer."""
-    import jiwer
-    pares = [(r, h) for r, h in zip(refs, hips) if r.strip()]
-    r, h = [p[0] for p in pares], [p[1] for p in pares]
-    return 100 * jiwer.wer(r, h), 100 * jiwer.cer(r, h)

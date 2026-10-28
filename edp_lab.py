@@ -55,7 +55,7 @@ _estilo()
 
 
 # ----------------------------------------------------------------------
-# 1. Dados: carregar áudio, baixar do Hugging Face, sintetizar para teste
+# 1. Dados: carregar áudio, sintetizar para teste
 # ----------------------------------------------------------------------
 def carregar_audio(caminho, sr=SR, duracao=4.0, offset=0.0):
     """Carrega mono, reamostra para `sr`, recorta `duracao` s e normaliza o pico a 0.9."""
@@ -74,70 +74,6 @@ def listar_audios_pasta(pasta, n=5, extensoes=(".wav", ".flac", ".mp3", ".ogg"))
     if not achados:
         raise FileNotFoundError(f"Nenhum áudio {extensoes} em {p.resolve()}")
     return achados[:n]
-
-
-def listar_repo_hf(repo_id, max_itens=40):
-    """Mostra o que há no repositório (útil quando o download automático não acha áudio)."""
-    from collections import Counter
-    from huggingface_hub import HfApi
-
-    arquivos = HfApi().list_repo_files(repo_id, repo_type="dataset")
-    print(f"{repo_id}: {len(arquivos)} arquivos")
-    print("Extensões:", dict(Counter(Path(f).suffix.lower() or "(sem)" for f in arquivos)))
-    for f in sorted(arquivos)[:max_itens]:
-        print("  ", f)
-    return arquivos
-
-
-def _extrair_audio_parquet(caminho_parquet, destino, n):
-    """Em datasets HF o áudio costuma vir em .parquet, numa coluna {bytes, path}. Salva `n` linhas como arquivos."""
-    import pyarrow.parquet as pq
-
-    tabela = pq.ParquetFile(caminho_parquet).read_row_group(0)
-    col = next((c for c in tabela.column_names
-                if str(tabela.schema.field(c).type).startswith("struct") and "bytes" in str(tabela.schema.field(c).type)), None)
-    if col is None:
-        raise RuntimeError(f"{caminho_parquet}: nenhuma coluna de áudio {{bytes, path}}. Colunas: {tabela.column_names}")
-    saidas = []
-    for i, item in enumerate(tabela.column(col).to_pylist()[:n]):
-        ext = Path(item.get("path") or "x.wav").suffix or ".wav"
-        p = Path(destino) / f"{Path(caminho_parquet).stem}_{i:03d}{ext}"
-        p.write_bytes(item["bytes"])
-        saidas.append(str(p))
-    return saidas
-
-
-def baixar_amostras_hf(repo_id="falabrasil/mf", n=5, destino="data/hf",
-                       extensoes=(".wav", ".flac", ".mp3", ".ogg")):
-    """
-    Baixa só `n` áudios de um dataset do Hugging Face Hub, sem baixar o dataset inteiro.
-      1) se o repo tem arquivos de áudio soltos, baixa os `n` primeiros;
-      2) senão, se tem .parquet (formato comum), baixa o primeiro e extrai `n` áudios dele.
-    Se nada servir, lista o conteúdo do repositório para você inspecionar.
-    Datasets FalaBrasil (desde jul/2025): https://huggingface.co/falabrasil
-    """
-    from huggingface_hub import HfApi, hf_hub_download
-
-    destino = Path(destino)
-    destino.mkdir(parents=True, exist_ok=True)
-    try:
-        todos = HfApi().list_repo_files(repo_id, repo_type="dataset")
-    except Exception as e:
-        raise RuntimeError(
-            f"Não consegui acessar '{repo_id}' no Hugging Face ({type(e).__name__}). "
-            "Um 401/'Repository Not Found' significa que o id está errado, o repo é privado/gated ou exige login. "
-            "Alternativa 100% local: baixe os áudios (ex.: git clone https://huggingface.co/datasets/falabrasil/mf) "
-            "e use  --pasta <pasta>  ou  --audio arquivo.wav.") from e
-    audios = sorted(f for f in todos if f.lower().endswith(extensoes))
-    if audios:
-        return [hf_hub_download(repo_id, f, repo_type="dataset", local_dir=destino) for f in audios[:n]]
-    parquets = sorted(f for f in todos if f.lower().endswith(".parquet"))
-    if parquets:
-        p = hf_hub_download(repo_id, parquets[0], repo_type="dataset", local_dir=destino)
-        return _extrair_audio_parquet(p, destino, n)
-    listar_repo_hf(repo_id)
-    raise RuntimeError(f"Não achei áudio nem .parquet em {repo_id}. A lista acima mostra o que existe; "
-                       "baixe um arquivo manualmente e use --audio.")
 
 
 def audio_sintetico(sr=SR, duracao=4.0, seed=0):
