@@ -1,0 +1,2 @@
+condicao,falas,WER,WER_ic_inf,WER_ic_sup,CER,delta_vs_ref,delta_ic_inf,delta_ic_sup,significativo,tempo_s
+limpo|nenhum,700,23.02,21.57,24.58,7.95,0.0,0.0,0.0,—,148.47

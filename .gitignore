@@ -33,3 +33,7 @@ mlruns/
 mlartifacts/
 modelos/*/last.pt
 resultados_unet/por_fala.csv
+
+resultados_unet/
+exploracao_tar.txt
+inspecao_hf.txt
