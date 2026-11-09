@@ -1,6 +1,6 @@
 ﻿import sys
 import pandas as pd
-from benchmark_asr import erros_por_fala, delta_ic
+from benchmark_asr_tinybase import erros_por_fala, delta_ic
 
 d = pd.read_csv(sys.argv[1], dtype=str).fillna("")
 for snr in ["limpo", "20", "10", "5"]:
